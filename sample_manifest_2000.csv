@@ -1,0 +1,2001 @@
+container_id,size_ft,weight_kg,loading_port,discharge_port,destination_order,refrigerated,hazardous
+CONT-0001,40,8819,JNPT,Port Klang,3,False,False
+CONT-0002,40,25870,JNPT,Colombo,1,True,False
+CONT-0003,20,24726,JNPT,Colombo,1,False,False
+CONT-0004,20,19719,JNPT,Port Klang,3,False,False
+CONT-0005,20,14105,JNPT,Singapore,2,False,False
+CONT-0006,20,8169,JNPT,Port Klang,3,False,False
+CONT-0007,40,25571,JNPT,Colombo,1,True,False
+CONT-0008,40,19850,JNPT,Singapore,2,True,False
+CONT-0009,20,7614,JNPT,Singapore,2,False,False
+CONT-0010,40,13329,JNPT,Port Klang,3,False,False
+CONT-0011,40,29234,JNPT,Colombo,1,False,False
+CONT-0012,20,13845,JNPT,Singapore,2,False,False
+CONT-0013,20,6051,JNPT,Port Klang,3,False,False
+CONT-0014,40,18311,JNPT,Singapore,2,False,False
+CONT-0015,20,13679,JNPT,Singapore,2,False,False
+CONT-0016,40,22038,JNPT,Rotterdam,4,False,False
+CONT-0017,20,7978,JNPT,Colombo,1,False,False
+CONT-0018,40,27543,JNPT,Colombo,1,False,False
+CONT-0019,20,23128,JNPT,Colombo,1,False,False
+CONT-0020,20,26003,JNPT,Port Klang,3,False,False
+CONT-0021,20,28661,JNPT,Port Klang,3,False,False
+CONT-0022,40,28937,JNPT,Singapore,2,False,False
+CONT-0023,40,25378,JNPT,Colombo,1,False,False
+CONT-0024,20,15076,JNPT,Singapore,2,False,False
+CONT-0025,20,28983,JNPT,Rotterdam,4,False,False
+CONT-0026,20,26618,JNPT,Rotterdam,4,False,False
+CONT-0027,20,11940,JNPT,Singapore,2,False,False
+CONT-0028,20,21959,JNPT,Rotterdam,4,False,False
+CONT-0029,20,23150,JNPT,Singapore,2,True,False
+CONT-0030,20,7208,JNPT,Colombo,1,True,False
+CONT-0031,40,15020,JNPT,Singapore,2,False,False
+CONT-0032,20,8090,JNPT,Colombo,1,False,False
+CONT-0033,40,9775,JNPT,Colombo,1,False,False
+CONT-0034,40,16147,JNPT,Singapore,2,False,False
+CONT-0035,20,20159,JNPT,Singapore,2,False,False
+CONT-0036,40,9657,JNPT,Colombo,1,False,False
+CONT-0037,20,20913,JNPT,Rotterdam,4,False,False
+CONT-0038,20,5070,JNPT,Rotterdam,4,False,False
+CONT-0039,20,27825,JNPT,Rotterdam,4,False,False
+CONT-0040,20,29108,JNPT,Colombo,1,True,False
+CONT-0041,20,22403,JNPT,Singapore,2,False,False
+CONT-0042,20,24498,JNPT,Colombo,1,False,False
+CONT-0043,40,26970,JNPT,Colombo,1,False,False
+CONT-0044,20,13544,JNPT,Singapore,2,False,False
+CONT-0045,40,17830,JNPT,Rotterdam,4,False,False
+CONT-0046,20,25354,JNPT,Colombo,1,False,False
+CONT-0047,20,16436,JNPT,Colombo,1,False,False
+CONT-0048,40,17912,JNPT,Colombo,1,False,False
+CONT-0049,40,16666,JNPT,Colombo,1,False,False
+CONT-0050,20,11901,JNPT,Port Klang,3,False,False
+CONT-0051,20,13228,JNPT,Colombo,1,False,False
+CONT-0052,20,15929,JNPT,Singapore,2,False,False
+CONT-0053,40,26379,JNPT,Colombo,1,True,False
+CONT-0054,40,25877,JNPT,Colombo,1,False,False
+CONT-0055,20,15101,JNPT,Port Klang,3,False,False
+CONT-0056,20,8368,JNPT,Port Klang,3,False,False
+CONT-0057,40,15757,JNPT,Singapore,2,False,True
+CONT-0058,40,18885,JNPT,Rotterdam,4,False,False
+CONT-0059,20,6268,JNPT,Rotterdam,4,False,False
+CONT-0060,20,12457,JNPT,Singapore,2,False,False
+CONT-0061,20,7274,JNPT,Port Klang,3,False,False
+CONT-0062,40,25570,JNPT,Port Klang,3,False,False
+CONT-0063,20,13698,JNPT,Colombo,1,False,False
+CONT-0064,40,22299,JNPT,Colombo,1,False,False
+CONT-0065,20,19288,JNPT,Colombo,1,False,False
+CONT-0066,40,18819,JNPT,Port Klang,3,False,False
+CONT-0067,20,18382,JNPT,Port Klang,3,False,False
+CONT-0068,20,26788,JNPT,Rotterdam,4,False,False
+CONT-0069,20,5013,JNPT,Port Klang,3,False,False
+CONT-0070,40,18559,JNPT,Rotterdam,4,False,False
+CONT-0071,20,29115,JNPT,Singapore,2,False,False
+CONT-0072,40,11060,JNPT,Singapore,2,False,False
+CONT-0073,20,13023,JNPT,Rotterdam,4,False,False
+CONT-0074,40,20582,JNPT,Rotterdam,4,False,False
+CONT-0075,20,29607,JNPT,Colombo,1,False,False
+CONT-0076,40,23222,JNPT,Colombo,1,False,False
+CONT-0077,20,20225,JNPT,Port Klang,3,False,False
+CONT-0078,20,22952,JNPT,Rotterdam,4,False,False
+CONT-0079,20,13101,JNPT,Port Klang,3,False,False
+CONT-0080,20,14362,JNPT,Singapore,2,False,False
+CONT-0081,20,9942,JNPT,Singapore,2,False,False
+CONT-0082,20,18356,JNPT,Port Klang,3,False,False
+CONT-0083,20,24139,JNPT,Colombo,1,False,False
+CONT-0084,20,17779,JNPT,Rotterdam,4,False,False
+CONT-0085,20,17742,JNPT,Port Klang,3,False,False
+CONT-0086,40,28390,JNPT,Colombo,1,False,False
+CONT-0087,20,19044,JNPT,Singapore,2,False,False
+CONT-0088,20,19899,JNPT,Port Klang,3,False,False
+CONT-0089,40,21813,JNPT,Port Klang,3,False,False
+CONT-0090,20,16467,JNPT,Singapore,2,False,False
+CONT-0091,40,16102,JNPT,Singapore,2,False,False
+CONT-0092,20,8748,JNPT,Singapore,2,False,False
+CONT-0093,20,24898,JNPT,Colombo,1,False,False
+CONT-0094,20,15222,JNPT,Rotterdam,4,False,False
+CONT-0095,40,28553,JNPT,Singapore,2,False,False
+CONT-0096,40,11966,JNPT,Colombo,1,False,False
+CONT-0097,20,26218,JNPT,Port Klang,3,False,False
+CONT-0098,20,16868,JNPT,Rotterdam,4,False,False
+CONT-0099,40,16850,JNPT,Rotterdam,4,False,False
+CONT-0100,20,13044,JNPT,Colombo,1,False,False
+CONT-0101,20,24999,JNPT,Rotterdam,4,True,False
+CONT-0102,20,11950,JNPT,Port Klang,3,False,False
+CONT-0103,40,17052,JNPT,Colombo,1,False,False
+CONT-0104,20,29843,JNPT,Singapore,2,False,False
+CONT-0105,40,11049,JNPT,Port Klang,3,False,False
+CONT-0106,40,20092,JNPT,Rotterdam,4,False,False
+CONT-0107,20,28031,JNPT,Rotterdam,4,False,False
+CONT-0108,40,18339,JNPT,Colombo,1,False,False
+CONT-0109,20,24319,JNPT,Port Klang,3,False,False
+CONT-0110,20,14904,JNPT,Colombo,1,False,False
+CONT-0111,40,12137,JNPT,Rotterdam,4,False,False
+CONT-0112,20,19433,JNPT,Port Klang,3,False,False
+CONT-0113,40,11738,JNPT,Colombo,1,False,False
+CONT-0114,40,12971,JNPT,Singapore,2,False,False
+CONT-0115,40,21637,JNPT,Singapore,2,False,False
+CONT-0116,40,22051,JNPT,Port Klang,3,False,False
+CONT-0117,40,14808,JNPT,Singapore,2,False,False
+CONT-0118,20,7459,JNPT,Singapore,2,False,False
+CONT-0119,20,6069,JNPT,Singapore,2,False,False
+CONT-0120,20,27524,JNPT,Singapore,2,False,False
+CONT-0121,40,14482,JNPT,Rotterdam,4,False,False
+CONT-0122,40,12660,JNPT,Colombo,1,False,False
+CONT-0123,40,26651,JNPT,Port Klang,3,False,False
+CONT-0124,40,16920,JNPT,Rotterdam,4,False,True
+CONT-0125,20,15561,JNPT,Port Klang,3,False,False
+CONT-0126,40,26848,JNPT,Colombo,1,False,False
+CONT-0127,20,22005,JNPT,Rotterdam,4,False,False
+CONT-0128,40,24112,JNPT,Colombo,1,False,False
+CONT-0129,40,13269,JNPT,Port Klang,3,False,False
+CONT-0130,40,26025,JNPT,Colombo,1,False,False
+CONT-0131,20,18244,JNPT,Colombo,1,False,False
+CONT-0132,20,29787,JNPT,Rotterdam,4,False,False
+CONT-0133,20,14438,JNPT,Rotterdam,4,False,False
+CONT-0134,40,15841,JNPT,Singapore,2,False,False
+CONT-0135,20,8717,JNPT,Rotterdam,4,False,False
+CONT-0136,40,17563,JNPT,Port Klang,3,False,False
+CONT-0137,20,23063,JNPT,Singapore,2,False,False
+CONT-0138,40,12473,JNPT,Colombo,1,False,False
+CONT-0139,20,21637,JNPT,Port Klang,3,False,False
+CONT-0140,40,29624,JNPT,Rotterdam,4,False,False
+CONT-0141,20,29997,JNPT,Rotterdam,4,False,False
+CONT-0142,40,15825,JNPT,Rotterdam,4,False,False
+CONT-0143,20,20498,JNPT,Rotterdam,4,False,False
+CONT-0144,40,12984,JNPT,Rotterdam,4,False,False
+CONT-0145,20,8288,JNPT,Rotterdam,4,False,False
+CONT-0146,40,21434,JNPT,Singapore,2,False,False
+CONT-0147,20,27698,JNPT,Rotterdam,4,False,False
+CONT-0148,40,20452,JNPT,Port Klang,3,False,True
+CONT-0149,20,25681,JNPT,Port Klang,3,False,False
+CONT-0150,20,25766,JNPT,Colombo,1,False,False
+CONT-0151,20,15629,JNPT,Colombo,1,False,False
+CONT-0152,20,18502,JNPT,Singapore,2,False,False
+CONT-0153,20,27384,JNPT,Singapore,2,False,False
+CONT-0154,20,13322,JNPT,Rotterdam,4,False,False
+CONT-0155,20,14425,JNPT,Singapore,2,False,False
+CONT-0156,40,28936,JNPT,Rotterdam,4,False,False
+CONT-0157,40,23833,JNPT,Colombo,1,False,False
+CONT-0158,20,27913,JNPT,Port Klang,3,False,False
+CONT-0159,20,23544,JNPT,Colombo,1,False,False
+CONT-0160,40,15540,JNPT,Port Klang,3,False,False
+CONT-0161,40,29600,JNPT,Singapore,2,False,False
+CONT-0162,20,19444,JNPT,Colombo,1,False,False
+CONT-0163,20,29493,JNPT,Rotterdam,4,False,False
+CONT-0164,40,19988,JNPT,Port Klang,3,False,False
+CONT-0165,20,14671,JNPT,Port Klang,3,False,False
+CONT-0166,40,15392,JNPT,Rotterdam,4,False,False
+CONT-0167,20,9049,JNPT,Rotterdam,4,False,False
+CONT-0168,40,28923,JNPT,Port Klang,3,False,False
+CONT-0169,40,26396,JNPT,Port Klang,3,False,False
+CONT-0170,20,27972,JNPT,Port Klang,3,False,False
+CONT-0171,20,21142,JNPT,Colombo,1,False,False
+CONT-0172,20,17157,JNPT,Rotterdam,4,False,False
+CONT-0173,40,28173,JNPT,Rotterdam,4,True,False
+CONT-0174,20,12736,JNPT,Port Klang,3,False,False
+CONT-0175,40,29129,JNPT,Port Klang,3,False,False
+CONT-0176,20,19900,JNPT,Colombo,1,False,False
+CONT-0177,20,15928,JNPT,Singapore,2,False,False
+CONT-0178,40,26160,JNPT,Singapore,2,False,False
+CONT-0179,40,27529,JNPT,Colombo,1,False,False
+CONT-0180,20,13213,JNPT,Singapore,2,False,True
+CONT-0181,20,12796,JNPT,Port Klang,3,False,False
+CONT-0182,40,25238,JNPT,Colombo,1,False,False
+CONT-0183,20,8573,JNPT,Rotterdam,4,False,False
+CONT-0184,40,29590,JNPT,Port Klang,3,False,True
+CONT-0185,40,21160,JNPT,Rotterdam,4,False,False
+CONT-0186,20,7647,JNPT,Port Klang,3,True,False
+CONT-0187,40,25968,JNPT,Port Klang,3,False,False
+CONT-0188,20,24838,JNPT,Rotterdam,4,False,False
+CONT-0189,40,26066,JNPT,Singapore,2,False,False
+CONT-0190,20,19860,JNPT,Rotterdam,4,False,False
+CONT-0191,20,13352,JNPT,Port Klang,3,False,False
+CONT-0192,20,7797,JNPT,Colombo,1,False,False
+CONT-0193,40,26231,JNPT,Colombo,1,False,False
+CONT-0194,40,21858,JNPT,Colombo,1,False,False
+CONT-0195,40,14971,JNPT,Singapore,2,False,False
+CONT-0196,40,20044,JNPT,Colombo,1,False,False
+CONT-0197,40,28372,JNPT,Colombo,1,True,False
+CONT-0198,40,19135,JNPT,Port Klang,3,False,False
+CONT-0199,40,10280,JNPT,Singapore,2,False,False
+CONT-0200,20,19865,JNPT,Port Klang,3,False,False
+CONT-0201,40,26598,JNPT,Colombo,1,False,False
+CONT-0202,20,7673,JNPT,Port Klang,3,False,False
+CONT-0203,20,13951,JNPT,Singapore,2,False,False
+CONT-0204,40,27435,JNPT,Rotterdam,4,True,False
+CONT-0205,40,8251,JNPT,Singapore,2,False,False
+CONT-0206,40,17484,JNPT,Port Klang,3,True,False
+CONT-0207,20,17458,JNPT,Singapore,2,True,False
+CONT-0208,20,5614,JNPT,Rotterdam,4,False,False
+CONT-0209,40,28976,JNPT,Rotterdam,4,False,True
+CONT-0210,20,25254,JNPT,Rotterdam,4,False,False
+CONT-0211,20,24296,JNPT,Rotterdam,4,False,False
+CONT-0212,20,15913,JNPT,Singapore,2,False,False
+CONT-0213,20,16448,JNPT,Port Klang,3,False,False
+CONT-0214,20,24739,JNPT,Singapore,2,False,False
+CONT-0215,20,29721,JNPT,Rotterdam,4,False,False
+CONT-0216,20,7237,JNPT,Rotterdam,4,False,False
+CONT-0217,40,19532,JNPT,Colombo,1,False,True
+CONT-0218,20,14406,JNPT,Colombo,1,False,False
+CONT-0219,20,23163,JNPT,Colombo,1,False,False
+CONT-0220,20,24824,JNPT,Rotterdam,4,False,False
+CONT-0221,40,19253,JNPT,Colombo,1,True,False
+CONT-0222,40,25172,JNPT,Singapore,2,False,False
+CONT-0223,20,16087,JNPT,Colombo,1,True,False
+CONT-0224,40,17310,JNPT,Port Klang,3,False,False
+CONT-0225,20,16462,JNPT,Port Klang,3,False,False
+CONT-0226,20,23314,JNPT,Rotterdam,4,False,False
+CONT-0227,40,25248,JNPT,Colombo,1,False,True
+CONT-0228,20,12018,JNPT,Port Klang,3,False,False
+CONT-0229,20,14692,JNPT,Colombo,1,False,False
+CONT-0230,40,27570,JNPT,Rotterdam,4,False,False
+CONT-0231,40,13424,JNPT,Rotterdam,4,False,False
+CONT-0232,20,19555,JNPT,Port Klang,3,False,False
+CONT-0233,40,23368,JNPT,Singapore,2,False,False
+CONT-0234,20,14233,JNPT,Rotterdam,4,False,False
+CONT-0235,40,12535,JNPT,Port Klang,3,False,False
+CONT-0236,40,11361,JNPT,Colombo,1,False,False
+CONT-0237,20,21821,JNPT,Singapore,2,False,False
+CONT-0238,40,19455,JNPT,Colombo,1,True,False
+CONT-0239,20,7674,JNPT,Port Klang,3,True,False
+CONT-0240,40,29297,JNPT,Port Klang,3,False,False
+CONT-0241,40,12547,JNPT,Rotterdam,4,False,False
+CONT-0242,20,12066,JNPT,Singapore,2,False,False
+CONT-0243,20,6564,JNPT,Singapore,2,False,False
+CONT-0244,20,21378,JNPT,Colombo,1,False,False
+CONT-0245,20,16561,JNPT,Singapore,2,False,False
+CONT-0246,20,16816,JNPT,Colombo,1,False,False
+CONT-0247,40,20232,JNPT,Port Klang,3,False,False
+CONT-0248,20,26531,JNPT,Colombo,1,False,False
+CONT-0249,20,26063,JNPT,Singapore,2,False,False
+CONT-0250,20,9418,JNPT,Colombo,1,True,False
+CONT-0251,40,9373,JNPT,Port Klang,3,False,False
+CONT-0252,20,13300,JNPT,Colombo,1,False,False
+CONT-0253,20,26487,JNPT,Port Klang,3,False,False
+CONT-0254,40,22409,JNPT,Rotterdam,4,False,False
+CONT-0255,20,22015,JNPT,Port Klang,3,False,False
+CONT-0256,40,13913,JNPT,Port Klang,3,False,False
+CONT-0257,20,19611,JNPT,Rotterdam,4,False,False
+CONT-0258,20,16552,JNPT,Rotterdam,4,False,False
+CONT-0259,20,26993,JNPT,Rotterdam,4,False,False
+CONT-0260,20,6020,JNPT,Singapore,2,True,False
+CONT-0261,40,20003,JNPT,Port Klang,3,False,True
+CONT-0262,20,19743,JNPT,Port Klang,3,False,False
+CONT-0263,20,17024,JNPT,Rotterdam,4,False,False
+CONT-0264,20,29106,JNPT,Singapore,2,False,False
+CONT-0265,20,13529,JNPT,Rotterdam,4,False,False
+CONT-0266,40,24095,JNPT,Singapore,2,False,False
+CONT-0267,20,28375,JNPT,Rotterdam,4,False,False
+CONT-0268,40,29883,JNPT,Port Klang,3,False,False
+CONT-0269,20,10161,JNPT,Singapore,2,False,False
+CONT-0270,20,9550,JNPT,Singapore,2,True,False
+CONT-0271,20,23076,JNPT,Singapore,2,True,False
+CONT-0272,40,23684,JNPT,Rotterdam,4,False,False
+CONT-0273,40,29048,JNPT,Colombo,1,False,False
+CONT-0274,20,23065,JNPT,Singapore,2,False,False
+CONT-0275,20,9068,JNPT,Singapore,2,False,False
+CONT-0276,40,19338,JNPT,Port Klang,3,False,False
+CONT-0277,40,12101,JNPT,Port Klang,3,False,False
+CONT-0278,40,13052,JNPT,Singapore,2,False,False
+CONT-0279,40,8929,JNPT,Colombo,1,False,False
+CONT-0280,20,11907,JNPT,Rotterdam,4,False,False
+CONT-0281,20,14899,JNPT,Rotterdam,4,False,False
+CONT-0282,20,7391,JNPT,Colombo,1,False,False
+CONT-0283,20,24879,JNPT,Singapore,2,False,False
+CONT-0284,40,19317,JNPT,Rotterdam,4,False,False
+CONT-0285,20,12921,JNPT,Rotterdam,4,False,False
+CONT-0286,20,14509,JNPT,Rotterdam,4,False,False
+CONT-0287,20,15729,JNPT,Port Klang,3,False,False
+CONT-0288,20,21343,JNPT,Port Klang,3,True,False
+CONT-0289,20,12888,JNPT,Singapore,2,True,False
+CONT-0290,40,29438,JNPT,Rotterdam,4,False,False
+CONT-0291,20,13666,JNPT,Port Klang,3,False,False
+CONT-0292,40,14378,JNPT,Port Klang,3,True,False
+CONT-0293,40,17165,JNPT,Colombo,1,False,False
+CONT-0294,40,19111,JNPT,Port Klang,3,False,False
+CONT-0295,20,6484,JNPT,Colombo,1,False,False
+CONT-0296,20,9880,JNPT,Singapore,2,False,False
+CONT-0297,20,25201,JNPT,Port Klang,3,False,False
+CONT-0298,20,23445,JNPT,Port Klang,3,False,False
+CONT-0299,40,21649,JNPT,Port Klang,3,False,False
+CONT-0300,40,26955,JNPT,Singapore,2,False,False
+CONT-0301,40,28307,JNPT,Rotterdam,4,False,False
+CONT-0302,40,11601,JNPT,Singapore,2,False,False
+CONT-0303,20,11681,JNPT,Rotterdam,4,False,False
+CONT-0304,20,9524,JNPT,Singapore,2,False,False
+CONT-0305,20,10674,JNPT,Rotterdam,4,False,False
+CONT-0306,40,29079,JNPT,Port Klang,3,False,False
+CONT-0307,40,15368,JNPT,Port Klang,3,False,False
+CONT-0308,20,20722,JNPT,Port Klang,3,False,False
+CONT-0309,20,17928,JNPT,Port Klang,3,False,False
+CONT-0310,40,19349,JNPT,Rotterdam,4,False,False
+CONT-0311,40,16884,JNPT,Port Klang,3,False,False
+CONT-0312,20,6663,JNPT,Singapore,2,True,False
+CONT-0313,40,11294,JNPT,Singapore,2,False,False
+CONT-0314,20,26393,JNPT,Rotterdam,4,False,False
+CONT-0315,20,14352,JNPT,Colombo,1,False,False
+CONT-0316,40,9222,JNPT,Singapore,2,False,False
+CONT-0317,40,21008,JNPT,Rotterdam,4,False,False
+CONT-0318,40,9227,JNPT,Colombo,1,False,False
+CONT-0319,40,17324,JNPT,Rotterdam,4,False,False
+CONT-0320,20,13940,JNPT,Singapore,2,False,False
+CONT-0321,40,14101,JNPT,Colombo,1,False,False
+CONT-0322,40,13750,JNPT,Rotterdam,4,False,False
+CONT-0323,40,14054,JNPT,Singapore,2,False,False
+CONT-0324,20,12717,JNPT,Rotterdam,4,False,False
+CONT-0325,40,8374,JNPT,Port Klang,3,False,False
+CONT-0326,20,15053,JNPT,Singapore,2,False,False
+CONT-0327,40,18190,JNPT,Colombo,1,False,False
+CONT-0328,40,23669,JNPT,Singapore,2,False,False
+CONT-0329,20,22997,JNPT,Rotterdam,4,False,False
+CONT-0330,40,10682,JNPT,Rotterdam,4,True,False
+CONT-0331,20,22945,JNPT,Singapore,2,False,False
+CONT-0332,20,27291,JNPT,Singapore,2,False,False
+CONT-0333,40,22858,JNPT,Singapore,2,False,False
+CONT-0334,20,15098,JNPT,Colombo,1,False,True
+CONT-0335,20,7393,JNPT,Colombo,1,False,False
+CONT-0336,40,10261,JNPT,Rotterdam,4,False,False
+CONT-0337,20,26021,JNPT,Rotterdam,4,False,False
+CONT-0338,40,20369,JNPT,Rotterdam,4,False,False
+CONT-0339,20,26415,JNPT,Port Klang,3,False,False
+CONT-0340,20,28850,JNPT,Singapore,2,False,False
+CONT-0341,20,28563,JNPT,Rotterdam,4,False,False
+CONT-0342,20,14032,JNPT,Singapore,2,True,False
+CONT-0343,40,8512,JNPT,Singapore,2,True,False
+CONT-0344,20,27020,JNPT,Colombo,1,False,False
+CONT-0345,20,12119,JNPT,Colombo,1,False,False
+CONT-0346,40,26877,JNPT,Port Klang,3,False,False
+CONT-0347,40,25080,JNPT,Singapore,2,False,False
+CONT-0348,40,13738,JNPT,Rotterdam,4,True,False
+CONT-0349,40,20489,JNPT,Port Klang,3,False,False
+CONT-0350,20,22626,JNPT,Rotterdam,4,False,False
+CONT-0351,40,23172,JNPT,Colombo,1,False,False
+CONT-0352,20,12957,JNPT,Port Klang,3,False,False
+CONT-0353,20,17159,JNPT,Colombo,1,True,False
+CONT-0354,40,9295,JNPT,Colombo,1,False,False
+CONT-0355,40,15111,JNPT,Rotterdam,4,False,False
+CONT-0356,40,8502,JNPT,Singapore,2,False,False
+CONT-0357,40,23693,JNPT,Singapore,2,False,False
+CONT-0358,20,14275,JNPT,Rotterdam,4,False,False
+CONT-0359,20,21803,JNPT,Rotterdam,4,False,False
+CONT-0360,20,15493,JNPT,Singapore,2,False,False
+CONT-0361,40,12781,JNPT,Colombo,1,False,False
+CONT-0362,40,17672,JNPT,Singapore,2,False,False
+CONT-0363,40,24361,JNPT,Port Klang,3,False,False
+CONT-0364,40,24075,JNPT,Rotterdam,4,False,False
+CONT-0365,20,22909,JNPT,Rotterdam,4,False,False
+CONT-0366,40,9924,JNPT,Colombo,1,False,False
+CONT-0367,40,21513,JNPT,Singapore,2,True,False
+CONT-0368,20,19942,JNPT,Port Klang,3,False,False
+CONT-0369,40,23833,JNPT,Rotterdam,4,True,False
+CONT-0370,20,22347,JNPT,Port Klang,3,True,False
+CONT-0371,40,13874,JNPT,Colombo,1,False,False
+CONT-0372,40,16271,JNPT,Port Klang,3,False,False
+CONT-0373,40,23040,JNPT,Singapore,2,False,False
+CONT-0374,20,26295,JNPT,Colombo,1,False,False
+CONT-0375,20,25864,JNPT,Colombo,1,False,False
+CONT-0376,40,18855,JNPT,Colombo,1,False,False
+CONT-0377,40,26572,JNPT,Rotterdam,4,True,False
+CONT-0378,40,25794,JNPT,Colombo,1,False,False
+CONT-0379,40,27235,JNPT,Singapore,2,False,False
+CONT-0380,40,26569,JNPT,Rotterdam,4,False,False
+CONT-0381,40,10569,JNPT,Port Klang,3,False,False
+CONT-0382,20,24830,JNPT,Rotterdam,4,True,False
+CONT-0383,40,24076,JNPT,Singapore,2,False,False
+CONT-0384,20,24197,JNPT,Rotterdam,4,False,False
+CONT-0385,20,7408,JNPT,Colombo,1,False,False
+CONT-0386,40,20767,JNPT,Port Klang,3,False,True
+CONT-0387,20,16793,JNPT,Port Klang,3,False,False
+CONT-0388,20,23177,JNPT,Rotterdam,4,True,False
+CONT-0389,20,24596,JNPT,Port Klang,3,True,False
+CONT-0390,40,26334,JNPT,Singapore,2,False,False
+CONT-0391,20,13795,JNPT,Rotterdam,4,True,False
+CONT-0392,20,20867,JNPT,Colombo,1,False,False
+CONT-0393,40,27457,JNPT,Singapore,2,False,False
+CONT-0394,40,18886,JNPT,Rotterdam,4,False,False
+CONT-0395,40,29333,JNPT,Singapore,2,False,False
+CONT-0396,20,15295,JNPT,Singapore,2,False,False
+CONT-0397,40,24089,JNPT,Singapore,2,False,False
+CONT-0398,20,8731,JNPT,Singapore,2,False,False
+CONT-0399,40,23126,JNPT,Singapore,2,False,False
+CONT-0400,20,18406,JNPT,Rotterdam,4,False,False
+CONT-0401,40,21865,JNPT,Rotterdam,4,False,False
+CONT-0402,40,25510,JNPT,Rotterdam,4,False,False
+CONT-0403,40,25593,JNPT,Colombo,1,False,False
+CONT-0404,20,26200,JNPT,Colombo,1,False,False
+CONT-0405,40,11471,JNPT,Colombo,1,False,False
+CONT-0406,20,24022,JNPT,Singapore,2,False,False
+CONT-0407,40,24399,JNPT,Singapore,2,False,False
+CONT-0408,20,7813,JNPT,Colombo,1,False,False
+CONT-0409,40,25075,JNPT,Rotterdam,4,False,False
+CONT-0410,40,18450,JNPT,Colombo,1,True,False
+CONT-0411,20,16241,JNPT,Colombo,1,False,False
+CONT-0412,20,23084,JNPT,Singapore,2,False,False
+CONT-0413,20,18272,JNPT,Singapore,2,False,False
+CONT-0414,20,25123,JNPT,Singapore,2,False,False
+CONT-0415,40,14743,JNPT,Port Klang,3,False,False
+CONT-0416,20,16986,JNPT,Port Klang,3,False,False
+CONT-0417,40,25292,JNPT,Port Klang,3,False,False
+CONT-0418,20,20003,JNPT,Singapore,2,False,False
+CONT-0419,40,18262,JNPT,Colombo,1,False,False
+CONT-0420,40,24738,JNPT,Rotterdam,4,False,False
+CONT-0421,20,20947,JNPT,Singapore,2,False,False
+CONT-0422,20,19778,JNPT,Colombo,1,False,False
+CONT-0423,20,17581,JNPT,Rotterdam,4,False,False
+CONT-0424,40,24013,JNPT,Singapore,2,False,False
+CONT-0425,20,6071,JNPT,Port Klang,3,False,False
+CONT-0426,20,29330,JNPT,Rotterdam,4,False,False
+CONT-0427,20,17021,JNPT,Colombo,1,False,False
+CONT-0428,20,26419,JNPT,Singapore,2,False,True
+CONT-0429,20,7850,JNPT,Rotterdam,4,False,False
+CONT-0430,40,27265,JNPT,Port Klang,3,False,False
+CONT-0431,20,11781,JNPT,Colombo,1,False,False
+CONT-0432,20,28070,JNPT,Port Klang,3,False,False
+CONT-0433,20,27259,JNPT,Colombo,1,False,False
+CONT-0434,40,17087,JNPT,Singapore,2,False,False
+CONT-0435,40,20868,JNPT,Rotterdam,4,False,False
+CONT-0436,20,19810,JNPT,Colombo,1,False,False
+CONT-0437,40,20093,JNPT,Rotterdam,4,False,True
+CONT-0438,40,11052,JNPT,Rotterdam,4,False,False
+CONT-0439,20,19078,JNPT,Singapore,2,False,False
+CONT-0440,20,23937,JNPT,Singapore,2,False,False
+CONT-0441,40,9505,JNPT,Colombo,1,True,False
+CONT-0442,20,19959,JNPT,Colombo,1,False,False
+CONT-0443,20,26299,JNPT,Port Klang,3,False,False
+CONT-0444,20,16810,JNPT,Port Klang,3,False,False
+CONT-0445,20,17987,JNPT,Port Klang,3,False,False
+CONT-0446,20,11993,JNPT,Rotterdam,4,False,False
+CONT-0447,40,8304,JNPT,Colombo,1,False,False
+CONT-0448,20,9331,JNPT,Rotterdam,4,False,False
+CONT-0449,40,11381,JNPT,Port Klang,3,False,False
+CONT-0450,40,12362,JNPT,Singapore,2,False,True
+CONT-0451,40,22421,JNPT,Port Klang,3,False,False
+CONT-0452,20,27497,JNPT,Rotterdam,4,False,False
+CONT-0453,40,27319,JNPT,Rotterdam,4,False,False
+CONT-0454,20,14075,JNPT,Colombo,1,False,False
+CONT-0455,40,8878,JNPT,Port Klang,3,False,False
+CONT-0456,40,17684,JNPT,Colombo,1,False,False
+CONT-0457,20,24461,JNPT,Colombo,1,False,False
+CONT-0458,20,23624,JNPT,Rotterdam,4,False,False
+CONT-0459,20,7391,JNPT,Colombo,1,True,False
+CONT-0460,40,21040,JNPT,Port Klang,3,False,False
+CONT-0461,40,25617,JNPT,Singapore,2,False,False
+CONT-0462,40,13091,JNPT,Port Klang,3,False,False
+CONT-0463,40,29074,JNPT,Colombo,1,False,False
+CONT-0464,40,9897,JNPT,Singapore,2,False,False
+CONT-0465,40,9803,JNPT,Port Klang,3,False,False
+CONT-0466,40,13368,JNPT,Rotterdam,4,False,False
+CONT-0467,40,13471,JNPT,Port Klang,3,False,False
+CONT-0468,40,11868,JNPT,Colombo,1,False,False
+CONT-0469,20,28341,JNPT,Colombo,1,False,False
+CONT-0470,20,23575,JNPT,Singapore,2,False,False
+CONT-0471,40,11779,JNPT,Singapore,2,True,False
+CONT-0472,20,20458,JNPT,Port Klang,3,False,False
+CONT-0473,40,9158,JNPT,Rotterdam,4,False,False
+CONT-0474,40,16888,JNPT,Colombo,1,False,False
+CONT-0475,20,12313,JNPT,Colombo,1,True,False
+CONT-0476,20,15180,JNPT,Port Klang,3,False,True
+CONT-0477,20,23474,JNPT,Port Klang,3,False,False
+CONT-0478,20,11403,JNPT,Singapore,2,True,False
+CONT-0479,20,16351,JNPT,Colombo,1,True,False
+CONT-0480,40,18076,JNPT,Colombo,1,False,False
+CONT-0481,20,6962,JNPT,Singapore,2,False,False
+CONT-0482,40,25031,JNPT,Rotterdam,4,False,False
+CONT-0483,40,24561,JNPT,Singapore,2,True,False
+CONT-0484,20,9283,JNPT,Singapore,2,False,False
+CONT-0485,40,18690,JNPT,Port Klang,3,False,False
+CONT-0486,20,24159,JNPT,Colombo,1,False,False
+CONT-0487,20,8956,JNPT,Port Klang,3,False,False
+CONT-0488,40,10962,JNPT,Singapore,2,False,False
+CONT-0489,20,15741,JNPT,Singapore,2,False,False
+CONT-0490,20,6604,JNPT,Port Klang,3,False,False
+CONT-0491,40,22817,JNPT,Singapore,2,False,False
+CONT-0492,20,5391,JNPT,Colombo,1,False,False
+CONT-0493,20,25653,JNPT,Colombo,1,False,False
+CONT-0494,40,14479,JNPT,Rotterdam,4,False,False
+CONT-0495,40,12014,JNPT,Colombo,1,True,False
+CONT-0496,20,28738,JNPT,Rotterdam,4,True,False
+CONT-0497,20,12035,JNPT,Singapore,2,False,False
+CONT-0498,20,25289,JNPT,Singapore,2,False,False
+CONT-0499,20,7874,JNPT,Port Klang,3,False,False
+CONT-0500,40,25229,JNPT,Singapore,2,False,False
+CONT-0501,20,22842,JNPT,Rotterdam,4,False,False
+CONT-0502,20,10892,JNPT,Colombo,1,False,True
+CONT-0503,40,17205,JNPT,Colombo,1,False,False
+CONT-0504,40,13230,JNPT,Colombo,1,False,False
+CONT-0505,40,9832,JNPT,Singapore,2,False,False
+CONT-0506,40,13770,JNPT,Singapore,2,False,False
+CONT-0507,40,8924,JNPT,Port Klang,3,False,False
+CONT-0508,40,24129,JNPT,Port Klang,3,False,False
+CONT-0509,20,12169,JNPT,Colombo,1,True,False
+CONT-0510,20,9275,JNPT,Port Klang,3,False,False
+CONT-0511,20,5718,JNPT,Singapore,2,False,False
+CONT-0512,40,10376,JNPT,Port Klang,3,False,False
+CONT-0513,20,10161,JNPT,Rotterdam,4,False,False
+CONT-0514,40,28110,JNPT,Port Klang,3,False,False
+CONT-0515,20,29051,JNPT,Port Klang,3,False,True
+CONT-0516,40,26770,JNPT,Rotterdam,4,False,False
+CONT-0517,40,28033,JNPT,Singapore,2,False,False
+CONT-0518,40,15798,JNPT,Port Klang,3,False,False
+CONT-0519,20,28231,JNPT,Port Klang,3,True,False
+CONT-0520,40,19484,JNPT,Port Klang,3,False,False
+CONT-0521,20,18751,JNPT,Singapore,2,False,False
+CONT-0522,20,8323,JNPT,Rotterdam,4,False,False
+CONT-0523,40,17663,JNPT,Colombo,1,False,False
+CONT-0524,20,17303,JNPT,Singapore,2,False,False
+CONT-0525,20,24465,JNPT,Rotterdam,4,False,False
+CONT-0526,40,22227,JNPT,Singapore,2,False,False
+CONT-0527,20,27845,JNPT,Port Klang,3,False,False
+CONT-0528,20,23011,JNPT,Rotterdam,4,True,True
+CONT-0529,20,26693,JNPT,Rotterdam,4,False,False
+CONT-0530,40,10684,JNPT,Rotterdam,4,False,False
+CONT-0531,20,26660,JNPT,Port Klang,3,False,False
+CONT-0532,20,17499,JNPT,Port Klang,3,False,False
+CONT-0533,20,12413,JNPT,Port Klang,3,False,False
+CONT-0534,20,26893,JNPT,Port Klang,3,False,False
+CONT-0535,40,20684,JNPT,Rotterdam,4,False,False
+CONT-0536,20,17936,JNPT,Colombo,1,False,False
+CONT-0537,20,10477,JNPT,Singapore,2,False,False
+CONT-0538,40,22266,JNPT,Singapore,2,False,False
+CONT-0539,40,10195,JNPT,Colombo,1,False,False
+CONT-0540,40,25029,JNPT,Rotterdam,4,False,False
+CONT-0541,20,18749,JNPT,Colombo,1,False,False
+CONT-0542,40,11283,JNPT,Colombo,1,False,False
+CONT-0543,40,21464,JNPT,Port Klang,3,False,False
+CONT-0544,20,10642,JNPT,Port Klang,3,False,False
+CONT-0545,40,9270,JNPT,Rotterdam,4,False,False
+CONT-0546,20,13800,JNPT,Port Klang,3,False,False
+CONT-0547,20,21109,JNPT,Colombo,1,False,False
+CONT-0548,20,15514,JNPT,Port Klang,3,False,False
+CONT-0549,20,18342,JNPT,Rotterdam,4,False,False
+CONT-0550,20,15194,JNPT,Rotterdam,4,False,False
+CONT-0551,40,13693,JNPT,Singapore,2,False,False
+CONT-0552,20,16808,JNPT,Singapore,2,False,False
+CONT-0553,20,9059,JNPT,Colombo,1,False,False
+CONT-0554,20,20551,JNPT,Port Klang,3,False,False
+CONT-0555,40,10961,JNPT,Port Klang,3,False,False
+CONT-0556,40,15022,JNPT,Singapore,2,False,False
+CONT-0557,20,5657,JNPT,Colombo,1,False,False
+CONT-0558,40,8277,JNPT,Singapore,2,False,False
+CONT-0559,40,29061,JNPT,Port Klang,3,False,False
+CONT-0560,20,12150,JNPT,Rotterdam,4,False,False
+CONT-0561,20,8352,JNPT,Colombo,1,False,False
+CONT-0562,20,27426,JNPT,Colombo,1,True,False
+CONT-0563,40,17072,JNPT,Port Klang,3,False,False
+CONT-0564,20,6860,JNPT,Rotterdam,4,False,False
+CONT-0565,40,17686,JNPT,Port Klang,3,False,False
+CONT-0566,40,26744,JNPT,Singapore,2,False,False
+CONT-0567,20,20588,JNPT,Port Klang,3,False,False
+CONT-0568,40,13935,JNPT,Port Klang,3,False,False
+CONT-0569,40,26318,JNPT,Singapore,2,False,False
+CONT-0570,20,15062,JNPT,Rotterdam,4,False,False
+CONT-0571,20,8859,JNPT,Rotterdam,4,False,False
+CONT-0572,40,10333,JNPT,Rotterdam,4,False,False
+CONT-0573,20,14776,JNPT,Rotterdam,4,False,False
+CONT-0574,40,19228,JNPT,Rotterdam,4,False,False
+CONT-0575,20,7648,JNPT,Rotterdam,4,False,False
+CONT-0576,40,8154,JNPT,Rotterdam,4,False,False
+CONT-0577,40,13191,JNPT,Rotterdam,4,False,False
+CONT-0578,20,19058,JNPT,Rotterdam,4,True,False
+CONT-0579,40,8461,JNPT,Port Klang,3,True,True
+CONT-0580,40,15414,JNPT,Port Klang,3,False,False
+CONT-0581,40,13472,JNPT,Colombo,1,False,False
+CONT-0582,40,27541,JNPT,Port Klang,3,False,False
+CONT-0583,20,21062,JNPT,Port Klang,3,False,False
+CONT-0584,40,8626,JNPT,Singapore,2,False,False
+CONT-0585,40,27323,JNPT,Singapore,2,False,False
+CONT-0586,20,25982,JNPT,Port Klang,3,False,False
+CONT-0587,20,5646,JNPT,Colombo,1,False,False
+CONT-0588,20,20545,JNPT,Singapore,2,False,False
+CONT-0589,20,26681,JNPT,Colombo,1,False,False
+CONT-0590,20,8437,JNPT,Colombo,1,False,False
+CONT-0591,20,11545,JNPT,Port Klang,3,False,False
+CONT-0592,20,22961,JNPT,Rotterdam,4,False,False
+CONT-0593,20,5417,JNPT,Colombo,1,False,False
+CONT-0594,20,7951,JNPT,Colombo,1,False,False
+CONT-0595,20,14700,JNPT,Port Klang,3,True,False
+CONT-0596,40,17521,JNPT,Port Klang,3,False,False
+CONT-0597,40,9503,JNPT,Colombo,1,False,False
+CONT-0598,20,19343,JNPT,Port Klang,3,False,False
+CONT-0599,20,18115,JNPT,Rotterdam,4,False,False
+CONT-0600,20,18819,JNPT,Singapore,2,False,False
+CONT-0601,40,13223,JNPT,Colombo,1,False,False
+CONT-0602,40,22357,JNPT,Singapore,2,False,False
+CONT-0603,40,12281,JNPT,Rotterdam,4,False,False
+CONT-0604,20,13572,JNPT,Port Klang,3,False,False
+CONT-0605,40,26895,JNPT,Singapore,2,False,False
+CONT-0606,40,22183,JNPT,Singapore,2,False,False
+CONT-0607,20,23295,JNPT,Colombo,1,False,False
+CONT-0608,40,24247,JNPT,Singapore,2,False,False
+CONT-0609,20,14114,JNPT,Colombo,1,False,False
+CONT-0610,40,10583,JNPT,Rotterdam,4,False,False
+CONT-0611,40,22649,JNPT,Port Klang,3,False,False
+CONT-0612,20,18219,JNPT,Rotterdam,4,False,True
+CONT-0613,20,24798,JNPT,Port Klang,3,False,False
+CONT-0614,20,6778,JNPT,Singapore,2,False,False
+CONT-0615,40,29534,JNPT,Port Klang,3,False,False
+CONT-0616,20,16185,JNPT,Port Klang,3,False,False
+CONT-0617,20,10379,JNPT,Rotterdam,4,False,False
+CONT-0618,20,13332,JNPT,Singapore,2,False,False
+CONT-0619,20,11244,JNPT,Port Klang,3,False,False
+CONT-0620,40,27294,JNPT,Colombo,1,False,False
+CONT-0621,20,21345,JNPT,Colombo,1,False,False
+CONT-0622,40,24657,JNPT,Singapore,2,False,False
+CONT-0623,20,24678,JNPT,Port Klang,3,False,False
+CONT-0624,40,16134,JNPT,Port Klang,3,False,False
+CONT-0625,20,9370,JNPT,Singapore,2,False,False
+CONT-0626,20,27986,JNPT,Port Klang,3,False,False
+CONT-0627,20,16314,JNPT,Singapore,2,False,False
+CONT-0628,20,8781,JNPT,Port Klang,3,False,False
+CONT-0629,40,25494,JNPT,Port Klang,3,False,False
+CONT-0630,20,9762,JNPT,Colombo,1,False,False
+CONT-0631,20,14391,JNPT,Port Klang,3,False,False
+CONT-0632,20,29693,JNPT,Colombo,1,False,False
+CONT-0633,40,26411,JNPT,Singapore,2,False,False
+CONT-0634,40,17425,JNPT,Colombo,1,False,False
+CONT-0635,40,18245,JNPT,Colombo,1,False,False
+CONT-0636,40,22518,JNPT,Singapore,2,False,False
+CONT-0637,40,14340,JNPT,Port Klang,3,False,False
+CONT-0638,20,10694,JNPT,Colombo,1,True,False
+CONT-0639,20,10273,JNPT,Port Klang,3,False,False
+CONT-0640,20,10036,JNPT,Port Klang,3,False,False
+CONT-0641,40,17868,JNPT,Rotterdam,4,True,False
+CONT-0642,20,11025,JNPT,Colombo,1,False,False
+CONT-0643,20,12248,JNPT,Singapore,2,False,False
+CONT-0644,40,28259,JNPT,Rotterdam,4,False,False
+CONT-0645,20,26045,JNPT,Singapore,2,False,False
+CONT-0646,40,11715,JNPT,Rotterdam,4,False,False
+CONT-0647,40,20286,JNPT,Rotterdam,4,True,False
+CONT-0648,20,21839,JNPT,Colombo,1,False,False
+CONT-0649,20,5240,JNPT,Colombo,1,False,False
+CONT-0650,40,21900,JNPT,Colombo,1,False,False
+CONT-0651,40,22261,JNPT,Colombo,1,True,False
+CONT-0652,20,7400,JNPT,Colombo,1,False,False
+CONT-0653,40,15459,JNPT,Port Klang,3,False,False
+CONT-0654,20,5553,JNPT,Rotterdam,4,False,False
+CONT-0655,40,27189,JNPT,Colombo,1,False,False
+CONT-0656,20,27474,JNPT,Port Klang,3,False,False
+CONT-0657,20,26650,JNPT,Colombo,1,False,False
+CONT-0658,40,25882,JNPT,Port Klang,3,False,False
+CONT-0659,40,29231,JNPT,Port Klang,3,False,False
+CONT-0660,20,5164,JNPT,Rotterdam,4,False,False
+CONT-0661,40,19267,JNPT,Singapore,2,False,False
+CONT-0662,20,11029,JNPT,Singapore,2,False,False
+CONT-0663,40,9782,JNPT,Rotterdam,4,False,False
+CONT-0664,20,28776,JNPT,Rotterdam,4,False,False
+CONT-0665,20,14343,JNPT,Colombo,1,False,False
+CONT-0666,40,18016,JNPT,Singapore,2,False,False
+CONT-0667,20,15263,JNPT,Singapore,2,False,False
+CONT-0668,20,16779,JNPT,Singapore,2,False,False
+CONT-0669,20,15009,JNPT,Rotterdam,4,False,False
+CONT-0670,40,12587,JNPT,Singapore,2,False,False
+CONT-0671,40,8610,JNPT,Colombo,1,False,False
+CONT-0672,20,13539,JNPT,Rotterdam,4,False,False
+CONT-0673,40,17535,JNPT,Singapore,2,False,False
+CONT-0674,20,5347,JNPT,Singapore,2,False,False
+CONT-0675,20,23558,JNPT,Singapore,2,False,False
+CONT-0676,40,15593,JNPT,Colombo,1,False,False
+CONT-0677,20,16837,JNPT,Rotterdam,4,False,False
+CONT-0678,20,26250,JNPT,Port Klang,3,False,False
+CONT-0679,40,16628,JNPT,Singapore,2,False,False
+CONT-0680,40,10550,JNPT,Port Klang,3,False,False
+CONT-0681,20,16306,JNPT,Rotterdam,4,False,True
+CONT-0682,40,22414,JNPT,Singapore,2,True,False
+CONT-0683,20,11124,JNPT,Singapore,2,False,False
+CONT-0684,40,21586,JNPT,Port Klang,3,False,False
+CONT-0685,20,10283,JNPT,Rotterdam,4,False,False
+CONT-0686,40,12414,JNPT,Colombo,1,True,False
+CONT-0687,20,18285,JNPT,Colombo,1,False,False
+CONT-0688,40,23447,JNPT,Rotterdam,4,False,False
+CONT-0689,20,24092,JNPT,Singapore,2,False,False
+CONT-0690,40,27547,JNPT,Colombo,1,False,False
+CONT-0691,20,22128,JNPT,Rotterdam,4,False,False
+CONT-0692,40,27654,JNPT,Colombo,1,False,False
+CONT-0693,40,25671,JNPT,Colombo,1,False,False
+CONT-0694,20,22361,JNPT,Rotterdam,4,False,False
+CONT-0695,40,19485,JNPT,Colombo,1,False,False
+CONT-0696,20,7746,JNPT,Port Klang,3,False,True
+CONT-0697,40,8233,JNPT,Colombo,1,False,False
+CONT-0698,40,21397,JNPT,Port Klang,3,False,False
+CONT-0699,20,22567,JNPT,Rotterdam,4,False,False
+CONT-0700,20,11674,JNPT,Rotterdam,4,False,False
+CONT-0701,20,15048,JNPT,Port Klang,3,False,False
+CONT-0702,40,15529,JNPT,Rotterdam,4,False,False
+CONT-0703,40,26041,JNPT,Colombo,1,False,False
+CONT-0704,40,12762,JNPT,Rotterdam,4,False,False
+CONT-0705,20,24956,JNPT,Colombo,1,False,False
+CONT-0706,40,17387,JNPT,Colombo,1,False,False
+CONT-0707,20,26524,JNPT,Port Klang,3,True,False
+CONT-0708,20,12591,JNPT,Singapore,2,False,False
+CONT-0709,40,10845,JNPT,Port Klang,3,False,False
+CONT-0710,40,24965,JNPT,Colombo,1,False,False
+CONT-0711,40,26321,JNPT,Port Klang,3,False,False
+CONT-0712,40,14374,JNPT,Rotterdam,4,False,False
+CONT-0713,20,8488,JNPT,Colombo,1,False,False
+CONT-0714,20,13444,JNPT,Port Klang,3,False,False
+CONT-0715,40,19130,JNPT,Rotterdam,4,False,False
+CONT-0716,20,13448,JNPT,Colombo,1,False,False
+CONT-0717,40,15534,JNPT,Port Klang,3,False,False
+CONT-0718,20,13629,JNPT,Singapore,2,False,False
+CONT-0719,40,10491,JNPT,Singapore,2,False,False
+CONT-0720,40,13989,JNPT,Singapore,2,False,False
+CONT-0721,20,13696,JNPT,Singapore,2,False,False
+CONT-0722,40,13111,JNPT,Colombo,1,False,False
+CONT-0723,40,28113,JNPT,Colombo,1,False,False
+CONT-0724,20,23825,JNPT,Port Klang,3,False,False
+CONT-0725,20,18037,JNPT,Singapore,2,True,False
+CONT-0726,20,22719,JNPT,Colombo,1,False,False
+CONT-0727,20,8944,JNPT,Rotterdam,4,False,True
+CONT-0728,20,24038,JNPT,Colombo,1,False,False
+CONT-0729,20,13613,JNPT,Singapore,2,False,False
+CONT-0730,20,21343,JNPT,Rotterdam,4,False,False
+CONT-0731,20,18126,JNPT,Port Klang,3,False,False
+CONT-0732,40,15489,JNPT,Colombo,1,False,False
+CONT-0733,40,14424,JNPT,Singapore,2,False,True
+CONT-0734,20,9406,JNPT,Port Klang,3,False,False
+CONT-0735,40,21054,JNPT,Colombo,1,True,False
+CONT-0736,20,25639,JNPT,Colombo,1,False,False
+CONT-0737,20,23267,JNPT,Port Klang,3,True,False
+CONT-0738,40,27843,JNPT,Singapore,2,False,False
+CONT-0739,20,21726,JNPT,Rotterdam,4,False,False
+CONT-0740,20,25699,JNPT,Singapore,2,False,False
+CONT-0741,20,25064,JNPT,Rotterdam,4,True,False
+CONT-0742,20,26397,JNPT,Port Klang,3,False,False
+CONT-0743,40,19900,JNPT,Rotterdam,4,False,False
+CONT-0744,20,12688,JNPT,Port Klang,3,False,False
+CONT-0745,20,20505,JNPT,Colombo,1,False,False
+CONT-0746,40,11405,JNPT,Port Klang,3,False,False
+CONT-0747,20,12515,JNPT,Singapore,2,False,False
+CONT-0748,20,10590,JNPT,Colombo,1,False,False
+CONT-0749,20,20602,JNPT,Rotterdam,4,False,False
+CONT-0750,40,25671,JNPT,Singapore,2,False,False
+CONT-0751,40,25152,JNPT,Port Klang,3,False,False
+CONT-0752,20,15088,JNPT,Port Klang,3,False,False
+CONT-0753,20,29847,JNPT,Singapore,2,False,False
+CONT-0754,40,24119,JNPT,Rotterdam,4,True,False
+CONT-0755,20,12576,JNPT,Colombo,1,False,False
+CONT-0756,20,13188,JNPT,Singapore,2,False,False
+CONT-0757,20,25490,JNPT,Singapore,2,False,False
+CONT-0758,40,21530,JNPT,Singapore,2,False,False
+CONT-0759,40,28241,JNPT,Rotterdam,4,False,False
+CONT-0760,20,9985,JNPT,Colombo,1,False,False
+CONT-0761,20,28435,JNPT,Rotterdam,4,False,False
+CONT-0762,20,16203,JNPT,Rotterdam,4,False,False
+CONT-0763,20,27837,JNPT,Colombo,1,False,False
+CONT-0764,20,13732,JNPT,Rotterdam,4,False,False
+CONT-0765,40,16194,JNPT,Rotterdam,4,False,False
+CONT-0766,20,19514,JNPT,Singapore,2,False,False
+CONT-0767,20,26823,JNPT,Singapore,2,False,False
+CONT-0768,40,13197,JNPT,Colombo,1,False,False
+CONT-0769,20,6706,JNPT,Singapore,2,False,False
+CONT-0770,20,14047,JNPT,Colombo,1,False,True
+CONT-0771,20,27634,JNPT,Rotterdam,4,False,False
+CONT-0772,20,7995,JNPT,Port Klang,3,True,False
+CONT-0773,40,11519,JNPT,Singapore,2,False,False
+CONT-0774,40,19380,JNPT,Rotterdam,4,True,False
+CONT-0775,40,16214,JNPT,Colombo,1,False,False
+CONT-0776,20,21059,JNPT,Singapore,2,False,False
+CONT-0777,20,24617,JNPT,Singapore,2,False,False
+CONT-0778,40,25747,JNPT,Port Klang,3,True,False
+CONT-0779,20,11079,JNPT,Colombo,1,False,False
+CONT-0780,40,29570,JNPT,Rotterdam,4,False,False
+CONT-0781,40,28088,JNPT,Port Klang,3,False,False
+CONT-0782,20,26590,JNPT,Colombo,1,False,False
+CONT-0783,40,14621,JNPT,Colombo,1,False,True
+CONT-0784,40,20733,JNPT,Rotterdam,4,True,False
+CONT-0785,40,8428,JNPT,Singapore,2,False,False
+CONT-0786,20,25936,JNPT,Colombo,1,False,False
+CONT-0787,20,17093,JNPT,Colombo,1,False,False
+CONT-0788,40,10553,JNPT,Singapore,2,False,False
+CONT-0789,20,11328,JNPT,Singapore,2,False,False
+CONT-0790,40,28926,JNPT,Port Klang,3,False,False
+CONT-0791,20,10911,JNPT,Rotterdam,4,False,False
+CONT-0792,40,19544,JNPT,Port Klang,3,False,False
+CONT-0793,40,18598,JNPT,Singapore,2,False,False
+CONT-0794,40,19796,JNPT,Rotterdam,4,False,True
+CONT-0795,20,14321,JNPT,Colombo,1,False,False
+CONT-0796,20,12270,JNPT,Singapore,2,True,False
+CONT-0797,40,17042,JNPT,Singapore,2,True,False
+CONT-0798,20,17028,JNPT,Singapore,2,False,False
+CONT-0799,40,26647,JNPT,Singapore,2,False,False
+CONT-0800,20,27596,JNPT,Colombo,1,True,False
+CONT-0801,20,6832,JNPT,Port Klang,3,False,False
+CONT-0802,40,11949,JNPT,Singapore,2,False,False
+CONT-0803,20,22182,JNPT,Colombo,1,False,False
+CONT-0804,20,12235,JNPT,Singapore,2,False,False
+CONT-0805,40,27501,JNPT,Colombo,1,False,False
+CONT-0806,20,16015,JNPT,Colombo,1,False,False
+CONT-0807,20,7787,JNPT,Rotterdam,4,False,False
+CONT-0808,20,23327,JNPT,Singapore,2,False,False
+CONT-0809,40,25178,JNPT,Singapore,2,True,False
+CONT-0810,20,23874,JNPT,Colombo,1,False,False
+CONT-0811,20,15509,JNPT,Port Klang,3,False,False
+CONT-0812,20,19490,JNPT,Singapore,2,True,False
+CONT-0813,20,17249,JNPT,Singapore,2,False,False
+CONT-0814,40,12839,JNPT,Port Klang,3,False,False
+CONT-0815,20,20439,JNPT,Colombo,1,False,False
+CONT-0816,20,22146,JNPT,Port Klang,3,False,False
+CONT-0817,40,29897,JNPT,Colombo,1,False,False
+CONT-0818,20,10581,JNPT,Colombo,1,False,False
+CONT-0819,20,20235,JNPT,Colombo,1,False,False
+CONT-0820,40,29630,JNPT,Port Klang,3,True,False
+CONT-0821,40,15574,JNPT,Rotterdam,4,False,False
+CONT-0822,40,10884,JNPT,Singapore,2,False,False
+CONT-0823,40,8704,JNPT,Colombo,1,False,False
+CONT-0824,20,29392,JNPT,Singapore,2,False,False
+CONT-0825,40,15739,JNPT,Port Klang,3,False,False
+CONT-0826,40,8965,JNPT,Port Klang,3,False,False
+CONT-0827,40,10876,JNPT,Rotterdam,4,False,False
+CONT-0828,20,15236,JNPT,Port Klang,3,False,False
+CONT-0829,20,22739,JNPT,Singapore,2,False,False
+CONT-0830,20,9431,JNPT,Rotterdam,4,False,False
+CONT-0831,20,7222,JNPT,Colombo,1,False,False
+CONT-0832,40,18442,JNPT,Rotterdam,4,False,False
+CONT-0833,40,28868,JNPT,Port Klang,3,False,False
+CONT-0834,20,29983,JNPT,Port Klang,3,False,False
+CONT-0835,20,7604,JNPT,Rotterdam,4,False,False
+CONT-0836,40,20253,JNPT,Singapore,2,False,False
+CONT-0837,20,6056,JNPT,Rotterdam,4,False,False
+CONT-0838,20,26998,JNPT,Singapore,2,True,False
+CONT-0839,40,28219,JNPT,Rotterdam,4,False,False
+CONT-0840,20,6370,JNPT,Rotterdam,4,False,False
+CONT-0841,40,25568,JNPT,Colombo,1,False,False
+CONT-0842,20,13051,JNPT,Rotterdam,4,False,False
+CONT-0843,40,9615,JNPT,Singapore,2,False,False
+CONT-0844,40,17368,JNPT,Rotterdam,4,False,False
+CONT-0845,20,21940,JNPT,Singapore,2,False,False
+CONT-0846,40,11708,JNPT,Singapore,2,False,False
+CONT-0847,20,19866,JNPT,Singapore,2,False,False
+CONT-0848,40,13373,JNPT,Colombo,1,False,False
+CONT-0849,20,22164,JNPT,Rotterdam,4,False,False
+CONT-0850,40,18983,JNPT,Singapore,2,False,False
+CONT-0851,40,21748,JNPT,Port Klang,3,False,False
+CONT-0852,20,10921,JNPT,Colombo,1,False,True
+CONT-0853,40,8400,JNPT,Rotterdam,4,False,False
+CONT-0854,20,21169,JNPT,Singapore,2,False,False
+CONT-0855,20,7601,JNPT,Colombo,1,False,False
+CONT-0856,40,14803,JNPT,Colombo,1,False,False
+CONT-0857,20,6062,JNPT,Port Klang,3,False,False
+CONT-0858,20,10840,JNPT,Singapore,2,False,False
+CONT-0859,40,26421,JNPT,Singapore,2,False,False
+CONT-0860,20,14807,JNPT,Port Klang,3,False,False
+CONT-0861,40,26037,JNPT,Colombo,1,False,False
+CONT-0862,40,18787,JNPT,Rotterdam,4,False,False
+CONT-0863,20,28911,JNPT,Colombo,1,False,False
+CONT-0864,40,17410,JNPT,Rotterdam,4,False,False
+CONT-0865,40,12250,JNPT,Rotterdam,4,False,False
+CONT-0866,40,17518,JNPT,Singapore,2,False,False
+CONT-0867,40,14793,JNPT,Rotterdam,4,True,False
+CONT-0868,40,14957,JNPT,Colombo,1,False,False
+CONT-0869,20,14839,JNPT,Port Klang,3,False,False
+CONT-0870,20,23642,JNPT,Colombo,1,False,False
+CONT-0871,40,23699,JNPT,Rotterdam,4,False,False
+CONT-0872,40,25595,JNPT,Port Klang,3,False,False
+CONT-0873,40,25074,JNPT,Port Klang,3,False,True
+CONT-0874,40,18869,JNPT,Port Klang,3,False,False
+CONT-0875,20,17295,JNPT,Singapore,2,False,False
+CONT-0876,40,18101,JNPT,Port Klang,3,False,False
+CONT-0877,40,20176,JNPT,Rotterdam,4,False,False
+CONT-0878,20,6225,JNPT,Singapore,2,False,True
+CONT-0879,20,21385,JNPT,Singapore,2,False,False
+CONT-0880,40,18169,JNPT,Port Klang,3,False,False
+CONT-0881,40,24913,JNPT,Singapore,2,False,False
+CONT-0882,40,25116,JNPT,Colombo,1,False,False
+CONT-0883,40,10853,JNPT,Port Klang,3,False,False
+CONT-0884,40,18239,JNPT,Colombo,1,False,False
+CONT-0885,20,14390,JNPT,Port Klang,3,False,False
+CONT-0886,20,10160,JNPT,Port Klang,3,True,False
+CONT-0887,20,11769,JNPT,Port Klang,3,False,False
+CONT-0888,40,26811,JNPT,Singapore,2,True,False
+CONT-0889,20,19537,JNPT,Colombo,1,True,False
+CONT-0890,20,17569,JNPT,Colombo,1,False,False
+CONT-0891,40,27423,JNPT,Rotterdam,4,False,False
+CONT-0892,40,29983,JNPT,Colombo,1,False,False
+CONT-0893,40,23344,JNPT,Colombo,1,False,False
+CONT-0894,40,23418,JNPT,Singapore,2,False,False
+CONT-0895,20,16909,JNPT,Rotterdam,4,False,False
+CONT-0896,40,18641,JNPT,Rotterdam,4,True,False
+CONT-0897,20,20113,JNPT,Singapore,2,False,False
+CONT-0898,20,8372,JNPT,Rotterdam,4,False,False
+CONT-0899,40,25457,JNPT,Rotterdam,4,False,False
+CONT-0900,20,10210,JNPT,Rotterdam,4,True,False
+CONT-0901,40,22127,JNPT,Rotterdam,4,False,False
+CONT-0902,40,10552,JNPT,Rotterdam,4,False,False
+CONT-0903,40,22588,JNPT,Singapore,2,False,False
+CONT-0904,20,24543,JNPT,Rotterdam,4,False,False
+CONT-0905,20,9552,JNPT,Colombo,1,False,False
+CONT-0906,20,25171,JNPT,Rotterdam,4,False,False
+CONT-0907,20,27267,JNPT,Port Klang,3,False,False
+CONT-0908,40,27094,JNPT,Colombo,1,False,False
+CONT-0909,20,22985,JNPT,Colombo,1,False,False
+CONT-0910,20,14247,JNPT,Colombo,1,False,False
+CONT-0911,40,20543,JNPT,Rotterdam,4,False,False
+CONT-0912,20,9557,JNPT,Singapore,2,False,False
+CONT-0913,20,14452,JNPT,Singapore,2,True,False
+CONT-0914,20,20948,JNPT,Rotterdam,4,False,False
+CONT-0915,20,19943,JNPT,Rotterdam,4,False,False
+CONT-0916,40,20606,JNPT,Port Klang,3,False,False
+CONT-0917,40,15757,JNPT,Port Klang,3,False,False
+CONT-0918,20,6240,JNPT,Rotterdam,4,False,False
+CONT-0919,40,12655,JNPT,Port Klang,3,False,False
+CONT-0920,40,16035,JNPT,Rotterdam,4,False,False
+CONT-0921,40,28088,JNPT,Colombo,1,False,True
+CONT-0922,20,20375,JNPT,Port Klang,3,False,False
+CONT-0923,20,10488,JNPT,Colombo,1,False,False
+CONT-0924,20,20504,JNPT,Singapore,2,False,False
+CONT-0925,40,8894,JNPT,Port Klang,3,False,False
+CONT-0926,40,17104,JNPT,Port Klang,3,False,False
+CONT-0927,20,29295,JNPT,Colombo,1,False,False
+CONT-0928,40,20116,JNPT,Singapore,2,False,False
+CONT-0929,20,22281,JNPT,Colombo,1,False,False
+CONT-0930,40,13051,JNPT,Rotterdam,4,False,False
+CONT-0931,20,25892,JNPT,Singapore,2,False,False
+CONT-0932,20,13663,JNPT,Colombo,1,False,False
+CONT-0933,20,29449,JNPT,Singapore,2,False,False
+CONT-0934,20,22381,JNPT,Rotterdam,4,False,False
+CONT-0935,20,15344,JNPT,Colombo,1,False,False
+CONT-0936,40,22148,JNPT,Port Klang,3,False,False
+CONT-0937,20,24142,JNPT,Rotterdam,4,False,False
+CONT-0938,40,27291,JNPT,Singapore,2,False,False
+CONT-0939,20,5346,JNPT,Colombo,1,True,False
+CONT-0940,20,19612,JNPT,Port Klang,3,False,False
+CONT-0941,20,25296,JNPT,Colombo,1,False,False
+CONT-0942,40,27640,JNPT,Colombo,1,False,False
+CONT-0943,20,26230,JNPT,Singapore,2,False,False
+CONT-0944,20,7481,JNPT,Rotterdam,4,False,False
+CONT-0945,40,18597,JNPT,Port Klang,3,False,False
+CONT-0946,20,17733,JNPT,Port Klang,3,False,False
+CONT-0947,20,7274,JNPT,Rotterdam,4,False,False
+CONT-0948,20,9714,JNPT,Rotterdam,4,False,False
+CONT-0949,20,13486,JNPT,Colombo,1,True,False
+CONT-0950,20,19610,JNPT,Colombo,1,False,False
+CONT-0951,40,29777,JNPT,Rotterdam,4,False,False
+CONT-0952,20,5121,JNPT,Rotterdam,4,False,False
+CONT-0953,40,10297,JNPT,Singapore,2,False,False
+CONT-0954,40,11971,JNPT,Port Klang,3,False,False
+CONT-0955,40,29203,JNPT,Colombo,1,False,False
+CONT-0956,20,20061,JNPT,Port Klang,3,False,True
+CONT-0957,20,11258,JNPT,Port Klang,3,False,False
+CONT-0958,20,7780,JNPT,Rotterdam,4,False,False
+CONT-0959,40,27429,JNPT,Singapore,2,False,False
+CONT-0960,40,24373,JNPT,Rotterdam,4,True,False
+CONT-0961,40,9402,JNPT,Rotterdam,4,False,False
+CONT-0962,20,27219,JNPT,Singapore,2,False,True
+CONT-0963,20,26424,JNPT,Colombo,1,False,False
+CONT-0964,20,26259,JNPT,Singapore,2,False,False
+CONT-0965,20,8188,JNPT,Rotterdam,4,False,False
+CONT-0966,40,11741,JNPT,Rotterdam,4,True,False
+CONT-0967,20,29180,JNPT,Rotterdam,4,False,False
+CONT-0968,20,15537,JNPT,Singapore,2,False,False
+CONT-0969,20,9628,JNPT,Rotterdam,4,False,False
+CONT-0970,20,24070,JNPT,Colombo,1,False,False
+CONT-0971,40,13169,JNPT,Colombo,1,False,True
+CONT-0972,40,29356,JNPT,Port Klang,3,False,False
+CONT-0973,20,9158,JNPT,Singapore,2,False,False
+CONT-0974,20,10719,JNPT,Colombo,1,False,False
+CONT-0975,20,14869,JNPT,Port Klang,3,True,False
+CONT-0976,20,22373,JNPT,Colombo,1,False,False
+CONT-0977,20,20211,JNPT,Singapore,2,True,False
+CONT-0978,20,20545,JNPT,Rotterdam,4,False,False
+CONT-0979,20,16933,JNPT,Port Klang,3,False,False
+CONT-0980,40,22848,JNPT,Colombo,1,False,False
+CONT-0981,20,5952,JNPT,Rotterdam,4,True,False
+CONT-0982,20,23997,JNPT,Port Klang,3,False,False
+CONT-0983,20,8608,JNPT,Port Klang,3,False,False
+CONT-0984,40,20305,JNPT,Singapore,2,False,False
+CONT-0985,40,12749,JNPT,Singapore,2,False,False
+CONT-0986,20,11362,JNPT,Port Klang,3,False,False
+CONT-0987,40,9954,JNPT,Port Klang,3,False,False
+CONT-0988,20,29914,JNPT,Port Klang,3,False,False
+CONT-0989,40,28905,JNPT,Singapore,2,False,False
+CONT-0990,20,12092,JNPT,Rotterdam,4,False,False
+CONT-0991,40,16082,JNPT,Singapore,2,False,False
+CONT-0992,40,12881,JNPT,Colombo,1,False,False
+CONT-0993,20,21522,JNPT,Colombo,1,False,False
+CONT-0994,40,11211,JNPT,Rotterdam,4,False,False
+CONT-0995,20,28979,JNPT,Rotterdam,4,False,False
+CONT-0996,40,10973,JNPT,Colombo,1,False,False
+CONT-0997,20,23690,JNPT,Colombo,1,False,False
+CONT-0998,40,14060,JNPT,Port Klang,3,False,True
+CONT-0999,40,20611,JNPT,Port Klang,3,False,False
+CONT-1000,40,28070,JNPT,Singapore,2,False,False
+CONT-1001,40,24866,JNPT,Port Klang,3,False,False
+CONT-1002,40,19979,JNPT,Port Klang,3,False,False
+CONT-1003,40,14708,JNPT,Singapore,2,False,False
+CONT-1004,20,29650,JNPT,Singapore,2,False,False
+CONT-1005,20,18858,JNPT,Port Klang,3,True,False
+CONT-1006,20,22258,JNPT,Colombo,1,False,False
+CONT-1007,20,14576,JNPT,Rotterdam,4,False,False
+CONT-1008,40,10150,JNPT,Singapore,2,False,False
+CONT-1009,20,7521,JNPT,Colombo,1,False,False
+CONT-1010,20,11693,JNPT,Colombo,1,False,False
+CONT-1011,40,23528,JNPT,Port Klang,3,False,False
+CONT-1012,20,7062,JNPT,Colombo,1,False,False
+CONT-1013,20,23962,JNPT,Port Klang,3,False,False
+CONT-1014,20,22972,JNPT,Rotterdam,4,False,False
+CONT-1015,40,13627,JNPT,Port Klang,3,False,False
+CONT-1016,40,9550,JNPT,Singapore,2,False,False
+CONT-1017,40,13268,JNPT,Port Klang,3,False,False
+CONT-1018,40,29835,JNPT,Singapore,2,False,False
+CONT-1019,20,9144,JNPT,Rotterdam,4,False,False
+CONT-1020,40,29808,JNPT,Port Klang,3,False,False
+CONT-1021,40,25486,JNPT,Port Klang,3,False,False
+CONT-1022,20,9763,JNPT,Rotterdam,4,False,False
+CONT-1023,20,21626,JNPT,Port Klang,3,False,False
+CONT-1024,40,26799,JNPT,Singapore,2,False,False
+CONT-1025,20,6313,JNPT,Singapore,2,False,False
+CONT-1026,40,22613,JNPT,Port Klang,3,False,False
+CONT-1027,20,22250,JNPT,Singapore,2,False,False
+CONT-1028,40,10863,JNPT,Rotterdam,4,False,False
+CONT-1029,20,6836,JNPT,Port Klang,3,False,False
+CONT-1030,20,17216,JNPT,Colombo,1,False,False
+CONT-1031,20,23383,JNPT,Colombo,1,False,False
+CONT-1032,40,22499,JNPT,Port Klang,3,False,False
+CONT-1033,20,18572,JNPT,Singapore,2,False,False
+CONT-1034,40,25213,JNPT,Port Klang,3,False,False
+CONT-1035,20,5216,JNPT,Rotterdam,4,False,False
+CONT-1036,40,12486,JNPT,Singapore,2,False,False
+CONT-1037,20,14895,JNPT,Port Klang,3,False,False
+CONT-1038,20,5080,JNPT,Singapore,2,False,False
+CONT-1039,40,12069,JNPT,Port Klang,3,False,False
+CONT-1040,40,8932,JNPT,Colombo,1,False,False
+CONT-1041,40,19854,JNPT,Rotterdam,4,False,False
+CONT-1042,20,27749,JNPT,Colombo,1,False,False
+CONT-1043,40,13336,JNPT,Colombo,1,False,False
+CONT-1044,20,10351,JNPT,Colombo,1,False,False
+CONT-1045,40,9596,JNPT,Port Klang,3,False,False
+CONT-1046,20,25579,JNPT,Singapore,2,False,False
+CONT-1047,20,15361,JNPT,Port Klang,3,False,False
+CONT-1048,20,24006,JNPT,Port Klang,3,True,False
+CONT-1049,20,20889,JNPT,Rotterdam,4,False,False
+CONT-1050,20,21494,JNPT,Singapore,2,False,False
+CONT-1051,40,25224,JNPT,Colombo,1,False,False
+CONT-1052,40,8569,JNPT,Rotterdam,4,False,False
+CONT-1053,40,27583,JNPT,Port Klang,3,False,True
+CONT-1054,40,15286,JNPT,Singapore,2,False,False
+CONT-1055,20,7575,JNPT,Rotterdam,4,True,False
+CONT-1056,40,9393,JNPT,Singapore,2,True,False
+CONT-1057,40,23370,JNPT,Colombo,1,True,False
+CONT-1058,20,8162,JNPT,Colombo,1,False,False
+CONT-1059,40,8958,JNPT,Colombo,1,False,False
+CONT-1060,40,19397,JNPT,Port Klang,3,False,False
+CONT-1061,40,24544,JNPT,Colombo,1,False,False
+CONT-1062,20,28455,JNPT,Singapore,2,False,False
+CONT-1063,20,28768,JNPT,Colombo,1,False,False
+CONT-1064,20,27876,JNPT,Singapore,2,False,False
+CONT-1065,40,20439,JNPT,Rotterdam,4,False,False
+CONT-1066,40,18298,JNPT,Colombo,1,False,False
+CONT-1067,40,17446,JNPT,Colombo,1,False,False
+CONT-1068,20,24673,JNPT,Port Klang,3,False,False
+CONT-1069,40,22023,JNPT,Singapore,2,False,False
+CONT-1070,40,20040,JNPT,Singapore,2,False,False
+CONT-1071,20,19354,JNPT,Colombo,1,False,False
+CONT-1072,40,11333,JNPT,Singapore,2,False,False
+CONT-1073,20,18247,JNPT,Colombo,1,False,False
+CONT-1074,20,28379,JNPT,Port Klang,3,False,False
+CONT-1075,40,23877,JNPT,Port Klang,3,False,False
+CONT-1076,20,21294,JNPT,Singapore,2,True,False
+CONT-1077,40,24322,JNPT,Colombo,1,False,False
+CONT-1078,20,25380,JNPT,Colombo,1,False,False
+CONT-1079,20,20270,JNPT,Singapore,2,False,False
+CONT-1080,20,16259,JNPT,Colombo,1,False,False
+CONT-1081,20,19749,JNPT,Port Klang,3,False,True
+CONT-1082,20,26607,JNPT,Port Klang,3,False,False
+CONT-1083,40,23972,JNPT,Colombo,1,False,False
+CONT-1084,40,23594,JNPT,Singapore,2,False,False
+CONT-1085,40,28215,JNPT,Port Klang,3,False,True
+CONT-1086,20,17006,JNPT,Port Klang,3,False,False
+CONT-1087,20,19029,JNPT,Port Klang,3,False,False
+CONT-1088,20,12688,JNPT,Port Klang,3,False,False
+CONT-1089,20,16062,JNPT,Singapore,2,False,True
+CONT-1090,40,21843,JNPT,Rotterdam,4,True,False
+CONT-1091,20,15371,JNPT,Rotterdam,4,False,False
+CONT-1092,20,27638,JNPT,Singapore,2,False,False
+CONT-1093,40,13460,JNPT,Port Klang,3,False,False
+CONT-1094,40,10468,JNPT,Singapore,2,False,False
+CONT-1095,40,15401,JNPT,Colombo,1,False,False
+CONT-1096,40,25401,JNPT,Rotterdam,4,False,False
+CONT-1097,40,17890,JNPT,Port Klang,3,False,False
+CONT-1098,20,13233,JNPT,Rotterdam,4,False,False
+CONT-1099,20,11112,JNPT,Rotterdam,4,False,False
+CONT-1100,40,16779,JNPT,Rotterdam,4,False,False
+CONT-1101,20,9930,JNPT,Port Klang,3,False,False
+CONT-1102,40,28772,JNPT,Singapore,2,False,False
+CONT-1103,20,27506,JNPT,Singapore,2,False,False
+CONT-1104,20,15175,JNPT,Rotterdam,4,False,False
+CONT-1105,40,9212,JNPT,Singapore,2,False,True
+CONT-1106,40,17102,JNPT,Singapore,2,False,False
+CONT-1107,20,7750,JNPT,Port Klang,3,False,False
+CONT-1108,20,16909,JNPT,Colombo,1,False,False
+CONT-1109,20,8667,JNPT,Colombo,1,False,False
+CONT-1110,40,18269,JNPT,Port Klang,3,False,False
+CONT-1111,40,15143,JNPT,Singapore,2,False,False
+CONT-1112,20,13333,JNPT,Colombo,1,False,False
+CONT-1113,20,22882,JNPT,Rotterdam,4,False,False
+CONT-1114,40,12748,JNPT,Port Klang,3,False,False
+CONT-1115,20,24851,JNPT,Colombo,1,False,False
+CONT-1116,20,23111,JNPT,Rotterdam,4,False,False
+CONT-1117,40,11999,JNPT,Singapore,2,False,False
+CONT-1118,20,13373,JNPT,Port Klang,3,False,False
+CONT-1119,20,10250,JNPT,Rotterdam,4,False,False
+CONT-1120,20,6110,JNPT,Port Klang,3,False,False
+CONT-1121,20,18531,JNPT,Port Klang,3,False,False
+CONT-1122,40,16551,JNPT,Colombo,1,False,False
+CONT-1123,20,15707,JNPT,Rotterdam,4,False,False
+CONT-1124,20,19529,JNPT,Singapore,2,False,False
+CONT-1125,20,7694,JNPT,Colombo,1,False,False
+CONT-1126,40,29272,JNPT,Singapore,2,False,False
+CONT-1127,20,29090,JNPT,Singapore,2,False,False
+CONT-1128,20,14233,JNPT,Singapore,2,False,False
+CONT-1129,40,26690,JNPT,Singapore,2,False,False
+CONT-1130,40,28533,JNPT,Singapore,2,False,False
+CONT-1131,40,13529,JNPT,Colombo,1,False,False
+CONT-1132,20,17056,JNPT,Singapore,2,True,False
+CONT-1133,40,22867,JNPT,Rotterdam,4,False,False
+CONT-1134,40,16722,JNPT,Port Klang,3,False,False
+CONT-1135,20,12063,JNPT,Port Klang,3,False,False
+CONT-1136,20,14509,JNPT,Port Klang,3,False,False
+CONT-1137,20,27422,JNPT,Rotterdam,4,True,False
+CONT-1138,20,27708,JNPT,Rotterdam,4,False,False
+CONT-1139,40,16396,JNPT,Colombo,1,False,False
+CONT-1140,40,23431,JNPT,Port Klang,3,True,False
+CONT-1141,20,17933,JNPT,Port Klang,3,False,False
+CONT-1142,40,16529,JNPT,Singapore,2,False,False
+CONT-1143,20,15397,JNPT,Rotterdam,4,False,False
+CONT-1144,40,24358,JNPT,Port Klang,3,False,False
+CONT-1145,40,28084,JNPT,Port Klang,3,False,False
+CONT-1146,40,24098,JNPT,Singapore,2,True,False
+CONT-1147,20,6175,JNPT,Rotterdam,4,False,False
+CONT-1148,20,21217,JNPT,Colombo,1,False,False
+CONT-1149,20,21154,JNPT,Colombo,1,False,False
+CONT-1150,40,13919,JNPT,Singapore,2,False,False
+CONT-1151,20,5135,JNPT,Singapore,2,False,False
+CONT-1152,20,8090,JNPT,Port Klang,3,False,False
+CONT-1153,20,17240,JNPT,Colombo,1,False,False
+CONT-1154,40,29611,JNPT,Rotterdam,4,False,False
+CONT-1155,40,18794,JNPT,Colombo,1,False,False
+CONT-1156,40,26650,JNPT,Singapore,2,False,False
+CONT-1157,20,6819,JNPT,Colombo,1,False,False
+CONT-1158,20,18071,JNPT,Colombo,1,False,False
+CONT-1159,40,17336,JNPT,Singapore,2,False,False
+CONT-1160,40,18161,JNPT,Singapore,2,False,False
+CONT-1161,20,21043,JNPT,Rotterdam,4,False,False
+CONT-1162,20,29788,JNPT,Rotterdam,4,False,False
+CONT-1163,20,6325,JNPT,Port Klang,3,False,False
+CONT-1164,40,24230,JNPT,Colombo,1,False,False
+CONT-1165,40,17843,JNPT,Singapore,2,False,False
+CONT-1166,20,19015,JNPT,Port Klang,3,False,False
+CONT-1167,20,21733,JNPT,Rotterdam,4,False,False
+CONT-1168,40,16302,JNPT,Port Klang,3,False,False
+CONT-1169,20,29265,JNPT,Rotterdam,4,False,False
+CONT-1170,20,18639,JNPT,Port Klang,3,False,False
+CONT-1171,40,28441,JNPT,Port Klang,3,False,False
+CONT-1172,20,11064,JNPT,Colombo,1,False,False
+CONT-1173,20,5191,JNPT,Rotterdam,4,True,False
+CONT-1174,20,18274,JNPT,Rotterdam,4,False,False
+CONT-1175,20,27079,JNPT,Rotterdam,4,False,False
+CONT-1176,20,5520,JNPT,Singapore,2,False,False
+CONT-1177,40,22279,JNPT,Singapore,2,False,False
+CONT-1178,20,5714,JNPT,Colombo,1,False,False
+CONT-1179,20,20894,JNPT,Rotterdam,4,False,False
+CONT-1180,20,23659,JNPT,Rotterdam,4,False,False
+CONT-1181,40,22148,JNPT,Rotterdam,4,False,False
+CONT-1182,40,17528,JNPT,Colombo,1,False,False
+CONT-1183,40,23987,JNPT,Singapore,2,False,False
+CONT-1184,20,7081,JNPT,Port Klang,3,False,False
+CONT-1185,40,29174,JNPT,Port Klang,3,False,True
+CONT-1186,20,11298,JNPT,Rotterdam,4,False,False
+CONT-1187,40,19113,JNPT,Rotterdam,4,False,False
+CONT-1188,20,18659,JNPT,Port Klang,3,False,False
+CONT-1189,40,17255,JNPT,Colombo,1,False,False
+CONT-1190,40,11306,JNPT,Rotterdam,4,False,False
+CONT-1191,20,5594,JNPT,Port Klang,3,False,False
+CONT-1192,40,24497,JNPT,Colombo,1,False,False
+CONT-1193,20,23415,JNPT,Singapore,2,False,False
+CONT-1194,20,6529,JNPT,Port Klang,3,False,False
+CONT-1195,40,11412,JNPT,Colombo,1,False,False
+CONT-1196,40,11469,JNPT,Colombo,1,False,False
+CONT-1197,20,11730,JNPT,Port Klang,3,False,False
+CONT-1198,40,24331,JNPT,Colombo,1,False,False
+CONT-1199,20,11615,JNPT,Rotterdam,4,False,True
+CONT-1200,40,23521,JNPT,Port Klang,3,False,False
+CONT-1201,20,29734,JNPT,Rotterdam,4,False,False
+CONT-1202,40,25355,JNPT,Rotterdam,4,False,False
+CONT-1203,40,23032,JNPT,Port Klang,3,False,False
+CONT-1204,40,24952,JNPT,Colombo,1,False,False
+CONT-1205,40,22223,JNPT,Colombo,1,False,False
+CONT-1206,40,26827,JNPT,Colombo,1,False,False
+CONT-1207,40,17972,JNPT,Port Klang,3,True,False
+CONT-1208,20,9812,JNPT,Rotterdam,4,False,False
+CONT-1209,40,28256,JNPT,Rotterdam,4,False,False
+CONT-1210,20,11464,JNPT,Port Klang,3,True,False
+CONT-1211,40,12128,JNPT,Port Klang,3,False,False
+CONT-1212,20,29806,JNPT,Singapore,2,True,False
+CONT-1213,40,15908,JNPT,Port Klang,3,False,False
+CONT-1214,20,17221,JNPT,Port Klang,3,False,False
+CONT-1215,40,22704,JNPT,Port Klang,3,False,False
+CONT-1216,40,27057,JNPT,Singapore,2,False,False
+CONT-1217,40,26768,JNPT,Singapore,2,False,False
+CONT-1218,20,24083,JNPT,Singapore,2,False,False
+CONT-1219,20,18502,JNPT,Colombo,1,True,False
+CONT-1220,20,19619,JNPT,Colombo,1,False,False
+CONT-1221,40,20936,JNPT,Port Klang,3,False,False
+CONT-1222,40,24041,JNPT,Rotterdam,4,False,False
+CONT-1223,40,12239,JNPT,Colombo,1,False,True
+CONT-1224,20,23318,JNPT,Port Klang,3,False,False
+CONT-1225,20,23735,JNPT,Port Klang,3,False,False
+CONT-1226,20,17270,JNPT,Port Klang,3,False,False
+CONT-1227,20,24320,JNPT,Rotterdam,4,False,False
+CONT-1228,20,10999,JNPT,Rotterdam,4,False,False
+CONT-1229,40,21683,JNPT,Rotterdam,4,False,False
+CONT-1230,40,23572,JNPT,Singapore,2,False,False
+CONT-1231,20,19715,JNPT,Singapore,2,False,False
+CONT-1232,40,20688,JNPT,Singapore,2,False,False
+CONT-1233,40,22519,JNPT,Port Klang,3,False,False
+CONT-1234,40,18120,JNPT,Colombo,1,False,False
+CONT-1235,40,9732,JNPT,Singapore,2,False,True
+CONT-1236,40,25427,JNPT,Singapore,2,False,False
+CONT-1237,40,26990,JNPT,Rotterdam,4,False,False
+CONT-1238,20,6474,JNPT,Rotterdam,4,False,False
+CONT-1239,20,22298,JNPT,Port Klang,3,False,False
+CONT-1240,20,10510,JNPT,Port Klang,3,False,False
+CONT-1241,20,18345,JNPT,Singapore,2,False,False
+CONT-1242,20,6916,JNPT,Port Klang,3,False,False
+CONT-1243,40,16451,JNPT,Rotterdam,4,True,False
+CONT-1244,40,15749,JNPT,Rotterdam,4,False,False
+CONT-1245,20,23124,JNPT,Rotterdam,4,False,False
+CONT-1246,20,5610,JNPT,Port Klang,3,False,False
+CONT-1247,40,17981,JNPT,Rotterdam,4,False,False
+CONT-1248,20,9665,JNPT,Port Klang,3,False,False
+CONT-1249,20,23191,JNPT,Rotterdam,4,True,False
+CONT-1250,40,17478,JNPT,Singapore,2,True,False
+CONT-1251,20,13221,JNPT,Rotterdam,4,False,False
+CONT-1252,40,17218,JNPT,Colombo,1,False,False
+CONT-1253,20,17953,JNPT,Colombo,1,False,False
+CONT-1254,40,14909,JNPT,Port Klang,3,False,False
+CONT-1255,40,16946,JNPT,Singapore,2,False,False
+CONT-1256,40,8520,JNPT,Singapore,2,False,True
+CONT-1257,20,10686,JNPT,Rotterdam,4,False,False
+CONT-1258,40,29269,JNPT,Colombo,1,False,False
+CONT-1259,20,9044,JNPT,Port Klang,3,False,False
+CONT-1260,20,27840,JNPT,Colombo,1,False,False
+CONT-1261,20,12258,JNPT,Colombo,1,False,False
+CONT-1262,20,25101,JNPT,Port Klang,3,False,False
+CONT-1263,20,14199,JNPT,Rotterdam,4,True,False
+CONT-1264,40,11635,JNPT,Port Klang,3,False,False
+CONT-1265,40,27758,JNPT,Singapore,2,False,False
+CONT-1266,20,23674,JNPT,Singapore,2,False,False
+CONT-1267,40,25463,JNPT,Port Klang,3,True,False
+CONT-1268,40,29300,JNPT,Colombo,1,False,False
+CONT-1269,20,27287,JNPT,Rotterdam,4,False,False
+CONT-1270,40,15357,JNPT,Colombo,1,False,False
+CONT-1271,20,17840,JNPT,Singapore,2,False,False
+CONT-1272,20,29164,JNPT,Singapore,2,False,False
+CONT-1273,20,15788,JNPT,Port Klang,3,False,False
+CONT-1274,20,5787,JNPT,Port Klang,3,False,False
+CONT-1275,40,9783,JNPT,Port Klang,3,False,False
+CONT-1276,40,11134,JNPT,Rotterdam,4,False,False
+CONT-1277,20,15265,JNPT,Colombo,1,True,False
+CONT-1278,20,25012,JNPT,Rotterdam,4,False,False
+CONT-1279,20,17499,JNPT,Rotterdam,4,False,False
+CONT-1280,40,29617,JNPT,Colombo,1,False,False
+CONT-1281,40,28290,JNPT,Colombo,1,False,False
+CONT-1282,20,21948,JNPT,Port Klang,3,False,True
+CONT-1283,40,27427,JNPT,Singapore,2,False,False
+CONT-1284,20,28744,JNPT,Rotterdam,4,False,False
+CONT-1285,20,15212,JNPT,Rotterdam,4,False,False
+CONT-1286,40,12830,JNPT,Rotterdam,4,False,False
+CONT-1287,40,24963,JNPT,Singapore,2,False,False
+CONT-1288,40,9789,JNPT,Rotterdam,4,False,False
+CONT-1289,40,10241,JNPT,Port Klang,3,False,False
+CONT-1290,40,27653,JNPT,Port Klang,3,False,False
+CONT-1291,20,19886,JNPT,Colombo,1,False,True
+CONT-1292,20,12545,JNPT,Rotterdam,4,False,False
+CONT-1293,40,18863,JNPT,Rotterdam,4,False,False
+CONT-1294,20,5324,JNPT,Colombo,1,True,False
+CONT-1295,20,11370,JNPT,Port Klang,3,False,False
+CONT-1296,20,12174,JNPT,Port Klang,3,False,False
+CONT-1297,20,5704,JNPT,Singapore,2,False,True
+CONT-1298,40,20416,JNPT,Colombo,1,False,False
+CONT-1299,20,17201,JNPT,Singapore,2,False,False
+CONT-1300,20,9285,JNPT,Singapore,2,False,False
+CONT-1301,20,19075,JNPT,Singapore,2,False,False
+CONT-1302,40,17639,JNPT,Singapore,2,False,False
+CONT-1303,20,9143,JNPT,Rotterdam,4,False,False
+CONT-1304,40,28148,JNPT,Colombo,1,False,False
+CONT-1305,40,24684,JNPT,Port Klang,3,False,False
+CONT-1306,40,25218,JNPT,Rotterdam,4,False,False
+CONT-1307,40,27135,JNPT,Colombo,1,False,False
+CONT-1308,40,20972,JNPT,Singapore,2,False,False
+CONT-1309,20,17258,JNPT,Port Klang,3,False,False
+CONT-1310,20,16520,JNPT,Singapore,2,False,False
+CONT-1311,20,20320,JNPT,Rotterdam,4,False,False
+CONT-1312,20,5809,JNPT,Singapore,2,False,False
+CONT-1313,20,7700,JNPT,Port Klang,3,False,False
+CONT-1314,20,7337,JNPT,Port Klang,3,False,False
+CONT-1315,40,16192,JNPT,Port Klang,3,False,False
+CONT-1316,20,29654,JNPT,Port Klang,3,False,False
+CONT-1317,20,18232,JNPT,Rotterdam,4,False,False
+CONT-1318,40,12891,JNPT,Rotterdam,4,False,False
+CONT-1319,20,21902,JNPT,Rotterdam,4,False,False
+CONT-1320,40,22050,JNPT,Rotterdam,4,False,False
+CONT-1321,20,9553,JNPT,Singapore,2,False,True
+CONT-1322,40,19621,JNPT,Port Klang,3,False,False
+CONT-1323,20,27626,JNPT,Port Klang,3,False,False
+CONT-1324,20,9559,JNPT,Singapore,2,False,False
+CONT-1325,40,26804,JNPT,Rotterdam,4,False,False
+CONT-1326,20,11171,JNPT,Rotterdam,4,False,False
+CONT-1327,40,17982,JNPT,Colombo,1,False,False
+CONT-1328,20,27577,JNPT,Rotterdam,4,False,False
+CONT-1329,40,17300,JNPT,Singapore,2,False,False
+CONT-1330,20,17079,JNPT,Colombo,1,False,False
+CONT-1331,20,8628,JNPT,Singapore,2,False,False
+CONT-1332,40,14765,JNPT,Singapore,2,False,False
+CONT-1333,40,13202,JNPT,Port Klang,3,False,False
+CONT-1334,20,5243,JNPT,Singapore,2,True,False
+CONT-1335,40,25231,JNPT,Port Klang,3,False,False
+CONT-1336,40,17434,JNPT,Rotterdam,4,False,False
+CONT-1337,20,25087,JNPT,Singapore,2,False,False
+CONT-1338,40,23002,JNPT,Rotterdam,4,False,False
+CONT-1339,40,9430,JNPT,Singapore,2,False,False
+CONT-1340,20,7187,JNPT,Singapore,2,False,False
+CONT-1341,20,17082,JNPT,Colombo,1,False,False
+CONT-1342,20,10401,JNPT,Port Klang,3,False,False
+CONT-1343,20,27756,JNPT,Rotterdam,4,False,False
+CONT-1344,20,6237,JNPT,Colombo,1,False,False
+CONT-1345,20,29532,JNPT,Rotterdam,4,False,False
+CONT-1346,40,22343,JNPT,Singapore,2,False,False
+CONT-1347,20,5591,JNPT,Colombo,1,False,False
+CONT-1348,20,7542,JNPT,Colombo,1,False,False
+CONT-1349,20,6128,JNPT,Singapore,2,False,False
+CONT-1350,40,29004,JNPT,Colombo,1,False,False
+CONT-1351,40,9594,JNPT,Rotterdam,4,False,False
+CONT-1352,20,7994,JNPT,Colombo,1,True,True
+CONT-1353,40,29920,JNPT,Colombo,1,False,False
+CONT-1354,40,29761,JNPT,Singapore,2,True,False
+CONT-1355,40,18573,JNPT,Singapore,2,False,False
+CONT-1356,20,12615,JNPT,Singapore,2,False,False
+CONT-1357,20,15362,JNPT,Colombo,1,False,False
+CONT-1358,40,17124,JNPT,Port Klang,3,True,False
+CONT-1359,20,24623,JNPT,Rotterdam,4,False,False
+CONT-1360,40,26651,JNPT,Singapore,2,False,False
+CONT-1361,40,20732,JNPT,Singapore,2,False,False
+CONT-1362,40,29835,JNPT,Rotterdam,4,False,False
+CONT-1363,40,20529,JNPT,Singapore,2,False,False
+CONT-1364,40,18120,JNPT,Singapore,2,False,False
+CONT-1365,20,17272,JNPT,Rotterdam,4,False,False
+CONT-1366,40,15800,JNPT,Rotterdam,4,False,False
+CONT-1367,40,9297,JNPT,Rotterdam,4,False,False
+CONT-1368,40,19230,JNPT,Singapore,2,False,False
+CONT-1369,40,16137,JNPT,Singapore,2,False,False
+CONT-1370,40,10117,JNPT,Rotterdam,4,False,False
+CONT-1371,40,14691,JNPT,Singapore,2,False,False
+CONT-1372,40,14696,JNPT,Singapore,2,False,False
+CONT-1373,20,11472,JNPT,Singapore,2,False,False
+CONT-1374,20,19688,JNPT,Singapore,2,False,False
+CONT-1375,40,19782,JNPT,Rotterdam,4,False,False
+CONT-1376,20,29082,JNPT,Rotterdam,4,False,False
+CONT-1377,20,17498,JNPT,Rotterdam,4,False,False
+CONT-1378,40,13006,JNPT,Singapore,2,False,False
+CONT-1379,20,23420,JNPT,Rotterdam,4,False,False
+CONT-1380,20,11213,JNPT,Colombo,1,False,False
+CONT-1381,20,18256,JNPT,Rotterdam,4,False,False
+CONT-1382,20,26005,JNPT,Colombo,1,False,False
+CONT-1383,20,23533,JNPT,Singapore,2,False,False
+CONT-1384,40,19422,JNPT,Rotterdam,4,False,False
+CONT-1385,40,16086,JNPT,Singapore,2,True,False
+CONT-1386,40,8925,JNPT,Singapore,2,False,False
+CONT-1387,20,13107,JNPT,Singapore,2,False,False
+CONT-1388,40,20594,JNPT,Rotterdam,4,False,False
+CONT-1389,20,18987,JNPT,Port Klang,3,False,False
+CONT-1390,40,27204,JNPT,Port Klang,3,False,False
+CONT-1391,40,11580,JNPT,Port Klang,3,False,False
+CONT-1392,40,18095,JNPT,Colombo,1,False,True
+CONT-1393,20,27816,JNPT,Rotterdam,4,False,False
+CONT-1394,20,17276,JNPT,Singapore,2,False,False
+CONT-1395,40,22767,JNPT,Singapore,2,False,False
+CONT-1396,40,14287,JNPT,Port Klang,3,False,False
+CONT-1397,20,25854,JNPT,Singapore,2,False,False
+CONT-1398,20,16211,JNPT,Colombo,1,False,False
+CONT-1399,20,7000,JNPT,Port Klang,3,False,False
+CONT-1400,20,11916,JNPT,Colombo,1,False,False
+CONT-1401,40,23922,JNPT,Rotterdam,4,False,False
+CONT-1402,40,19241,JNPT,Port Klang,3,False,False
+CONT-1403,20,6875,JNPT,Port Klang,3,False,True
+CONT-1404,40,21166,JNPT,Singapore,2,False,False
+CONT-1405,20,27913,JNPT,Singapore,2,False,False
+CONT-1406,40,24872,JNPT,Rotterdam,4,True,False
+CONT-1407,40,18557,JNPT,Colombo,1,False,False
+CONT-1408,40,22559,JNPT,Singapore,2,False,False
+CONT-1409,20,19021,JNPT,Rotterdam,4,False,False
+CONT-1410,20,9691,JNPT,Colombo,1,False,False
+CONT-1411,40,25981,JNPT,Rotterdam,4,False,False
+CONT-1412,20,22716,JNPT,Singapore,2,False,False
+CONT-1413,40,10930,JNPT,Colombo,1,False,True
+CONT-1414,40,18698,JNPT,Rotterdam,4,False,False
+CONT-1415,20,26974,JNPT,Colombo,1,False,False
+CONT-1416,20,27668,JNPT,Port Klang,3,False,False
+CONT-1417,40,29102,JNPT,Port Klang,3,False,False
+CONT-1418,40,29427,JNPT,Rotterdam,4,False,False
+CONT-1419,20,7920,JNPT,Port Klang,3,False,False
+CONT-1420,20,15268,JNPT,Rotterdam,4,False,False
+CONT-1421,20,17718,JNPT,Rotterdam,4,False,False
+CONT-1422,40,12138,JNPT,Singapore,2,False,False
+CONT-1423,20,9741,JNPT,Port Klang,3,False,False
+CONT-1424,40,12779,JNPT,Colombo,1,False,False
+CONT-1425,20,28151,JNPT,Rotterdam,4,False,False
+CONT-1426,20,15916,JNPT,Singapore,2,False,False
+CONT-1427,20,29108,JNPT,Colombo,1,False,False
+CONT-1428,20,26602,JNPT,Singapore,2,False,False
+CONT-1429,40,19413,JNPT,Rotterdam,4,True,False
+CONT-1430,20,11392,JNPT,Rotterdam,4,False,False
+CONT-1431,40,9773,JNPT,Port Klang,3,False,False
+CONT-1432,20,20808,JNPT,Port Klang,3,False,False
+CONT-1433,20,26339,JNPT,Colombo,1,False,False
+CONT-1434,40,12836,JNPT,Rotterdam,4,False,False
+CONT-1435,20,16651,JNPT,Rotterdam,4,False,False
+CONT-1436,20,16091,JNPT,Rotterdam,4,False,False
+CONT-1437,20,12892,JNPT,Rotterdam,4,False,False
+CONT-1438,20,29418,JNPT,Rotterdam,4,False,False
+CONT-1439,40,17018,JNPT,Rotterdam,4,True,False
+CONT-1440,20,26017,JNPT,Singapore,2,False,False
+CONT-1441,20,27732,JNPT,Colombo,1,False,False
+CONT-1442,40,17776,JNPT,Singapore,2,False,False
+CONT-1443,40,25613,JNPT,Singapore,2,False,True
+CONT-1444,40,25577,JNPT,Rotterdam,4,False,False
+CONT-1445,40,29354,JNPT,Colombo,1,False,False
+CONT-1446,20,24631,JNPT,Singapore,2,False,False
+CONT-1447,20,9221,JNPT,Singapore,2,False,False
+CONT-1448,40,10772,JNPT,Colombo,1,False,False
+CONT-1449,20,26566,JNPT,Colombo,1,False,False
+CONT-1450,20,14614,JNPT,Rotterdam,4,False,False
+CONT-1451,20,16538,JNPT,Singapore,2,False,False
+CONT-1452,20,9642,JNPT,Port Klang,3,False,False
+CONT-1453,20,16765,JNPT,Port Klang,3,False,False
+CONT-1454,20,13541,JNPT,Rotterdam,4,False,False
+CONT-1455,20,18937,JNPT,Singapore,2,True,False
+CONT-1456,40,29154,JNPT,Singapore,2,False,False
+CONT-1457,20,10375,JNPT,Rotterdam,4,False,False
+CONT-1458,20,24779,JNPT,Singapore,2,False,False
+CONT-1459,40,21329,JNPT,Colombo,1,False,False
+CONT-1460,20,13953,JNPT,Singapore,2,False,False
+CONT-1461,40,15281,JNPT,Rotterdam,4,False,False
+CONT-1462,20,15045,JNPT,Rotterdam,4,False,False
+CONT-1463,40,26072,JNPT,Port Klang,3,False,False
+CONT-1464,40,20765,JNPT,Singapore,2,False,False
+CONT-1465,40,26077,JNPT,Rotterdam,4,False,False
+CONT-1466,40,13095,JNPT,Singapore,2,False,False
+CONT-1467,20,28770,JNPT,Port Klang,3,False,False
+CONT-1468,20,19383,JNPT,Port Klang,3,False,False
+CONT-1469,20,28542,JNPT,Singapore,2,False,False
+CONT-1470,20,15247,JNPT,Colombo,1,True,False
+CONT-1471,20,23851,JNPT,Colombo,1,False,False
+CONT-1472,20,5350,JNPT,Rotterdam,4,False,False
+CONT-1473,40,25445,JNPT,Colombo,1,True,False
+CONT-1474,40,8238,JNPT,Rotterdam,4,False,False
+CONT-1475,40,25305,JNPT,Colombo,1,False,False
+CONT-1476,40,25154,JNPT,Singapore,2,True,False
+CONT-1477,20,6668,JNPT,Rotterdam,4,False,False
+CONT-1478,20,27251,JNPT,Singapore,2,False,False
+CONT-1479,20,5073,JNPT,Rotterdam,4,False,False
+CONT-1480,40,24892,JNPT,Colombo,1,False,False
+CONT-1481,20,5193,JNPT,Rotterdam,4,False,False
+CONT-1482,20,28672,JNPT,Singapore,2,False,False
+CONT-1483,20,7776,JNPT,Singapore,2,False,False
+CONT-1484,20,26516,JNPT,Port Klang,3,False,False
+CONT-1485,20,10969,JNPT,Port Klang,3,False,False
+CONT-1486,20,9583,JNPT,Port Klang,3,True,False
+CONT-1487,40,11626,JNPT,Singapore,2,True,False
+CONT-1488,40,9035,JNPT,Singapore,2,False,False
+CONT-1489,40,11892,JNPT,Rotterdam,4,False,False
+CONT-1490,40,18645,JNPT,Rotterdam,4,False,False
+CONT-1491,40,12132,JNPT,Singapore,2,False,False
+CONT-1492,20,27226,JNPT,Port Klang,3,False,False
+CONT-1493,20,14485,JNPT,Port Klang,3,False,False
+CONT-1494,40,24752,JNPT,Singapore,2,False,False
+CONT-1495,20,27968,JNPT,Singapore,2,False,False
+CONT-1496,40,24460,JNPT,Singapore,2,False,False
+CONT-1497,40,15516,JNPT,Colombo,1,False,False
+CONT-1498,20,9790,JNPT,Rotterdam,4,False,False
+CONT-1499,20,18346,JNPT,Port Klang,3,False,False
+CONT-1500,20,18994,JNPT,Colombo,1,False,False
+CONT-1501,40,21699,JNPT,Singapore,2,False,False
+CONT-1502,20,26640,JNPT,Port Klang,3,False,False
+CONT-1503,40,22119,JNPT,Singapore,2,False,False
+CONT-1504,20,8174,JNPT,Colombo,1,False,False
+CONT-1505,20,24297,JNPT,Port Klang,3,False,False
+CONT-1506,20,8485,JNPT,Singapore,2,True,False
+CONT-1507,40,14240,JNPT,Singapore,2,False,False
+CONT-1508,20,16236,JNPT,Port Klang,3,False,False
+CONT-1509,40,9435,JNPT,Singapore,2,False,False
+CONT-1510,40,26361,JNPT,Port Klang,3,False,False
+CONT-1511,40,10218,JNPT,Rotterdam,4,False,False
+CONT-1512,40,13470,JNPT,Port Klang,3,False,False
+CONT-1513,20,27734,JNPT,Singapore,2,False,False
+CONT-1514,20,7457,JNPT,Singapore,2,False,False
+CONT-1515,40,21135,JNPT,Port Klang,3,False,False
+CONT-1516,20,27830,JNPT,Colombo,1,False,False
+CONT-1517,20,12219,JNPT,Port Klang,3,False,False
+CONT-1518,20,12805,JNPT,Port Klang,3,False,False
+CONT-1519,20,9357,JNPT,Port Klang,3,False,False
+CONT-1520,40,25517,JNPT,Colombo,1,False,False
+CONT-1521,40,18635,JNPT,Colombo,1,False,False
+CONT-1522,40,18637,JNPT,Colombo,1,False,False
+CONT-1523,40,13791,JNPT,Port Klang,3,False,False
+CONT-1524,40,27112,JNPT,Colombo,1,False,False
+CONT-1525,40,27803,JNPT,Singapore,2,False,False
+CONT-1526,40,20958,JNPT,Singapore,2,False,False
+CONT-1527,20,20696,JNPT,Colombo,1,False,False
+CONT-1528,40,14188,JNPT,Rotterdam,4,False,True
+CONT-1529,20,10823,JNPT,Rotterdam,4,True,False
+CONT-1530,20,26139,JNPT,Rotterdam,4,False,False
+CONT-1531,40,8386,JNPT,Colombo,1,False,False
+CONT-1532,20,26118,JNPT,Colombo,1,False,False
+CONT-1533,20,25558,JNPT,Colombo,1,False,False
+CONT-1534,40,19088,JNPT,Colombo,1,False,False
+CONT-1535,40,13345,JNPT,Port Klang,3,False,False
+CONT-1536,20,13764,JNPT,Colombo,1,False,False
+CONT-1537,20,21762,JNPT,Rotterdam,4,True,False
+CONT-1538,20,17628,JNPT,Singapore,2,False,False
+CONT-1539,40,20607,JNPT,Colombo,1,False,False
+CONT-1540,20,14234,JNPT,Port Klang,3,False,False
+CONT-1541,40,10778,JNPT,Colombo,1,False,False
+CONT-1542,40,21934,JNPT,Singapore,2,False,False
+CONT-1543,40,16883,JNPT,Rotterdam,4,False,False
+CONT-1544,40,10502,JNPT,Colombo,1,False,False
+CONT-1545,20,19637,JNPT,Rotterdam,4,False,False
+CONT-1546,40,12740,JNPT,Colombo,1,False,False
+CONT-1547,20,15463,JNPT,Rotterdam,4,False,False
+CONT-1548,40,28860,JNPT,Port Klang,3,False,False
+CONT-1549,20,18718,JNPT,Rotterdam,4,False,False
+CONT-1550,20,24037,JNPT,Rotterdam,4,False,False
+CONT-1551,20,5562,JNPT,Port Klang,3,False,False
+CONT-1552,20,16447,JNPT,Port Klang,3,False,False
+CONT-1553,40,21797,JNPT,Singapore,2,False,False
+CONT-1554,20,27799,JNPT,Singapore,2,False,False
+CONT-1555,20,6772,JNPT,Colombo,1,False,False
+CONT-1556,20,9813,JNPT,Port Klang,3,True,False
+CONT-1557,40,21647,JNPT,Singapore,2,False,False
+CONT-1558,20,14814,JNPT,Rotterdam,4,False,False
+CONT-1559,40,8432,JNPT,Port Klang,3,False,False
+CONT-1560,20,29613,JNPT,Singapore,2,True,False
+CONT-1561,40,22886,JNPT,Port Klang,3,False,False
+CONT-1562,20,8012,JNPT,Rotterdam,4,False,False
+CONT-1563,20,17854,JNPT,Singapore,2,False,False
+CONT-1564,20,26033,JNPT,Rotterdam,4,False,False
+CONT-1565,40,14380,JNPT,Port Klang,3,False,False
+CONT-1566,40,18992,JNPT,Colombo,1,False,False
+CONT-1567,20,24566,JNPT,Colombo,1,False,False
+CONT-1568,40,15875,JNPT,Port Klang,3,False,False
+CONT-1569,40,23853,JNPT,Colombo,1,False,False
+CONT-1570,20,16686,JNPT,Port Klang,3,False,False
+CONT-1571,20,16660,JNPT,Singapore,2,False,False
+CONT-1572,20,21455,JNPT,Singapore,2,False,False
+CONT-1573,40,9225,JNPT,Port Klang,3,False,False
+CONT-1574,40,11056,JNPT,Singapore,2,False,False
+CONT-1575,40,13277,JNPT,Port Klang,3,False,False
+CONT-1576,20,19119,JNPT,Colombo,1,False,False
+CONT-1577,40,12993,JNPT,Rotterdam,4,False,False
+CONT-1578,40,25928,JNPT,Colombo,1,False,False
+CONT-1579,40,13291,JNPT,Colombo,1,False,False
+CONT-1580,20,28286,JNPT,Rotterdam,4,False,False
+CONT-1581,40,22484,JNPT,Singapore,2,False,False
+CONT-1582,20,14392,JNPT,Rotterdam,4,False,False
+CONT-1583,20,17017,JNPT,Port Klang,3,False,False
+CONT-1584,20,27365,JNPT,Colombo,1,False,False
+CONT-1585,40,8260,JNPT,Singapore,2,False,False
+CONT-1586,20,7391,JNPT,Singapore,2,False,False
+CONT-1587,20,20351,JNPT,Rotterdam,4,False,False
+CONT-1588,40,21007,JNPT,Rotterdam,4,False,False
+CONT-1589,20,24803,JNPT,Rotterdam,4,False,False
+CONT-1590,20,6254,JNPT,Singapore,2,False,False
+CONT-1591,40,27696,JNPT,Rotterdam,4,False,False
+CONT-1592,20,20512,JNPT,Singapore,2,False,True
+CONT-1593,40,21858,JNPT,Port Klang,3,False,False
+CONT-1594,20,18273,JNPT,Colombo,1,False,False
+CONT-1595,20,12015,JNPT,Port Klang,3,False,False
+CONT-1596,40,19207,JNPT,Port Klang,3,False,False
+CONT-1597,20,22547,JNPT,Singapore,2,False,False
+CONT-1598,20,5325,JNPT,Singapore,2,False,False
+CONT-1599,20,26760,JNPT,Port Klang,3,False,False
+CONT-1600,20,15368,JNPT,Colombo,1,False,False
+CONT-1601,40,12119,JNPT,Rotterdam,4,True,False
+CONT-1602,20,27821,JNPT,Singapore,2,False,False
+CONT-1603,20,27270,JNPT,Colombo,1,False,True
+CONT-1604,40,24452,JNPT,Colombo,1,False,False
+CONT-1605,20,16541,JNPT,Rotterdam,4,False,False
+CONT-1606,20,10796,JNPT,Singapore,2,False,False
+CONT-1607,40,22335,JNPT,Port Klang,3,False,False
+CONT-1608,20,26286,JNPT,Colombo,1,False,False
+CONT-1609,40,25849,JNPT,Colombo,1,False,False
+CONT-1610,40,21783,JNPT,Singapore,2,False,False
+CONT-1611,20,20387,JNPT,Colombo,1,False,False
+CONT-1612,20,26130,JNPT,Rotterdam,4,False,False
+CONT-1613,20,13769,JNPT,Port Klang,3,False,False
+CONT-1614,20,12915,JNPT,Colombo,1,True,True
+CONT-1615,40,25005,JNPT,Port Klang,3,False,False
+CONT-1616,20,23210,JNPT,Rotterdam,4,False,False
+CONT-1617,20,23935,JNPT,Rotterdam,4,False,False
+CONT-1618,40,21209,JNPT,Port Klang,3,False,False
+CONT-1619,40,24523,JNPT,Colombo,1,False,False
+CONT-1620,20,23117,JNPT,Singapore,2,False,False
+CONT-1621,20,25607,JNPT,Singapore,2,False,False
+CONT-1622,40,26736,JNPT,Rotterdam,4,False,False
+CONT-1623,20,25693,JNPT,Port Klang,3,False,False
+CONT-1624,20,22544,JNPT,Singapore,2,False,False
+CONT-1625,20,9711,JNPT,Colombo,1,False,False
+CONT-1626,20,9647,JNPT,Port Klang,3,False,False
+CONT-1627,20,16842,JNPT,Singapore,2,False,False
+CONT-1628,20,20942,JNPT,Colombo,1,False,False
+CONT-1629,20,19774,JNPT,Singapore,2,False,False
+CONT-1630,40,28683,JNPT,Colombo,1,False,False
+CONT-1631,20,25119,JNPT,Colombo,1,False,False
+CONT-1632,20,24861,JNPT,Colombo,1,False,False
+CONT-1633,20,16956,JNPT,Colombo,1,True,False
+CONT-1634,20,27662,JNPT,Singapore,2,False,False
+CONT-1635,20,28202,JNPT,Port Klang,3,False,False
+CONT-1636,20,18105,JNPT,Singapore,2,False,False
+CONT-1637,40,17210,JNPT,Rotterdam,4,False,False
+CONT-1638,20,11744,JNPT,Rotterdam,4,False,False
+CONT-1639,40,18444,JNPT,Colombo,1,False,False
+CONT-1640,20,25732,JNPT,Colombo,1,False,True
+CONT-1641,20,24230,JNPT,Rotterdam,4,False,False
+CONT-1642,40,25383,JNPT,Port Klang,3,True,False
+CONT-1643,20,11092,JNPT,Port Klang,3,True,False
+CONT-1644,20,15303,JNPT,Colombo,1,False,True
+CONT-1645,20,20249,JNPT,Port Klang,3,False,False
+CONT-1646,40,25277,JNPT,Singapore,2,False,False
+CONT-1647,40,29998,JNPT,Colombo,1,False,False
+CONT-1648,40,14492,JNPT,Singapore,2,False,False
+CONT-1649,40,21803,JNPT,Colombo,1,False,False
+CONT-1650,40,15747,JNPT,Colombo,1,True,False
+CONT-1651,40,8152,JNPT,Rotterdam,4,False,False
+CONT-1652,20,22480,JNPT,Colombo,1,False,False
+CONT-1653,20,18601,JNPT,Port Klang,3,False,False
+CONT-1654,20,15262,JNPT,Rotterdam,4,False,False
+CONT-1655,20,26007,JNPT,Colombo,1,False,False
+CONT-1656,20,5340,JNPT,Singapore,2,False,False
+CONT-1657,40,15416,JNPT,Singapore,2,False,False
+CONT-1658,20,22614,JNPT,Colombo,1,False,False
+CONT-1659,20,14970,JNPT,Colombo,1,False,False
+CONT-1660,40,16844,JNPT,Singapore,2,False,False
+CONT-1661,20,9849,JNPT,Rotterdam,4,False,False
+CONT-1662,20,20660,JNPT,Rotterdam,4,False,False
+CONT-1663,20,13644,JNPT,Port Klang,3,False,False
+CONT-1664,20,26205,JNPT,Singapore,2,True,False
+CONT-1665,20,26970,JNPT,Singapore,2,False,False
+CONT-1666,20,11837,JNPT,Port Klang,3,False,False
+CONT-1667,40,11462,JNPT,Singapore,2,False,False
+CONT-1668,20,25331,JNPT,Singapore,2,False,False
+CONT-1669,20,15064,JNPT,Colombo,1,False,False
+CONT-1670,20,5543,JNPT,Rotterdam,4,False,False
+CONT-1671,20,16532,JNPT,Port Klang,3,False,False
+CONT-1672,20,9935,JNPT,Rotterdam,4,False,False
+CONT-1673,20,8205,JNPT,Colombo,1,False,False
+CONT-1674,20,18195,JNPT,Singapore,2,False,False
+CONT-1675,20,27320,JNPT,Colombo,1,False,False
+CONT-1676,20,6169,JNPT,Port Klang,3,True,False
+CONT-1677,20,25323,JNPT,Rotterdam,4,False,False
+CONT-1678,40,16790,JNPT,Rotterdam,4,False,False
+CONT-1679,40,27539,JNPT,Port Klang,3,False,False
+CONT-1680,40,23622,JNPT,Port Klang,3,False,False
+CONT-1681,20,15884,JNPT,Rotterdam,4,False,False
+CONT-1682,20,5682,JNPT,Singapore,2,False,False
+CONT-1683,40,8318,JNPT,Port Klang,3,False,False
+CONT-1684,20,8584,JNPT,Colombo,1,False,False
+CONT-1685,40,25212,JNPT,Singapore,2,False,False
+CONT-1686,40,18999,JNPT,Rotterdam,4,False,False
+CONT-1687,20,20941,JNPT,Port Klang,3,False,False
+CONT-1688,20,15935,JNPT,Rotterdam,4,False,False
+CONT-1689,40,12846,JNPT,Rotterdam,4,False,False
+CONT-1690,20,13007,JNPT,Rotterdam,4,False,False
+CONT-1691,40,20379,JNPT,Colombo,1,False,False
+CONT-1692,40,22721,JNPT,Singapore,2,False,False
+CONT-1693,20,24305,JNPT,Rotterdam,4,False,False
+CONT-1694,20,16248,JNPT,Colombo,1,False,False
+CONT-1695,40,19370,JNPT,Port Klang,3,False,False
+CONT-1696,40,23280,JNPT,Singapore,2,False,False
+CONT-1697,20,14445,JNPT,Colombo,1,True,False
+CONT-1698,20,24433,JNPT,Colombo,1,False,True
+CONT-1699,20,5021,JNPT,Colombo,1,False,False
+CONT-1700,40,24449,JNPT,Singapore,2,False,False
+CONT-1701,40,22157,JNPT,Colombo,1,False,False
+CONT-1702,20,27233,JNPT,Rotterdam,4,False,False
+CONT-1703,40,17896,JNPT,Port Klang,3,False,False
+CONT-1704,20,23945,JNPT,Singapore,2,False,False
+CONT-1705,20,14994,JNPT,Colombo,1,False,False
+CONT-1706,20,17319,JNPT,Rotterdam,4,False,False
+CONT-1707,20,27451,JNPT,Port Klang,3,False,False
+CONT-1708,40,23115,JNPT,Colombo,1,False,False
+CONT-1709,40,28159,JNPT,Port Klang,3,False,False
+CONT-1710,40,26532,JNPT,Port Klang,3,False,False
+CONT-1711,20,5195,JNPT,Rotterdam,4,False,False
+CONT-1712,20,26295,JNPT,Colombo,1,False,False
+CONT-1713,40,18856,JNPT,Colombo,1,False,False
+CONT-1714,40,9737,JNPT,Singapore,2,False,False
+CONT-1715,20,27140,JNPT,Singapore,2,False,False
+CONT-1716,40,23891,JNPT,Singapore,2,True,False
+CONT-1717,40,25033,JNPT,Colombo,1,False,False
+CONT-1718,40,22542,JNPT,Rotterdam,4,False,False
+CONT-1719,20,11030,JNPT,Singapore,2,False,False
+CONT-1720,40,28223,JNPT,Colombo,1,False,True
+CONT-1721,20,29399,JNPT,Singapore,2,False,False
+CONT-1722,20,20743,JNPT,Port Klang,3,False,False
+CONT-1723,20,26879,JNPT,Port Klang,3,False,False
+CONT-1724,20,18920,JNPT,Singapore,2,False,False
+CONT-1725,20,24023,JNPT,Port Klang,3,False,False
+CONT-1726,40,9396,JNPT,Port Klang,3,False,False
+CONT-1727,20,10187,JNPT,Port Klang,3,False,False
+CONT-1728,20,7056,JNPT,Singapore,2,False,False
+CONT-1729,20,28435,JNPT,Singapore,2,False,False
+CONT-1730,40,10235,JNPT,Rotterdam,4,False,False
+CONT-1731,20,28216,JNPT,Port Klang,3,False,False
+CONT-1732,40,27152,JNPT,Rotterdam,4,True,False
+CONT-1733,20,8163,JNPT,Colombo,1,False,False
+CONT-1734,40,15753,JNPT,Colombo,1,False,False
+CONT-1735,40,10109,JNPT,Colombo,1,False,False
+CONT-1736,20,17265,JNPT,Colombo,1,False,False
+CONT-1737,20,25886,JNPT,Singapore,2,False,False
+CONT-1738,20,11592,JNPT,Singapore,2,False,False
+CONT-1739,20,24074,JNPT,Colombo,1,False,False
+CONT-1740,40,19782,JNPT,Rotterdam,4,False,False
+CONT-1741,40,29044,JNPT,Rotterdam,4,False,False
+CONT-1742,20,16537,JNPT,Port Klang,3,False,False
+CONT-1743,40,10322,JNPT,Colombo,1,False,False
+CONT-1744,20,12555,JNPT,Colombo,1,True,False
+CONT-1745,20,13237,JNPT,Rotterdam,4,True,False
+CONT-1746,40,10450,JNPT,Singapore,2,False,False
+CONT-1747,40,11633,JNPT,Rotterdam,4,False,True
+CONT-1748,20,11570,JNPT,Port Klang,3,False,False
+CONT-1749,40,29736,JNPT,Colombo,1,False,False
+CONT-1750,40,27988,JNPT,Colombo,1,False,False
+CONT-1751,40,28068,JNPT,Colombo,1,False,False
+CONT-1752,20,6166,JNPT,Rotterdam,4,False,False
+CONT-1753,20,12463,JNPT,Colombo,1,True,False
+CONT-1754,20,24927,JNPT,Rotterdam,4,False,False
+CONT-1755,40,12103,JNPT,Rotterdam,4,False,False
+CONT-1756,20,25173,JNPT,Port Klang,3,False,False
+CONT-1757,20,12603,JNPT,Colombo,1,False,False
+CONT-1758,40,25570,JNPT,Colombo,1,False,False
+CONT-1759,20,6856,JNPT,Singapore,2,False,False
+CONT-1760,20,26469,JNPT,Singapore,2,False,False
+CONT-1761,40,29515,JNPT,Colombo,1,False,False
+CONT-1762,20,29091,JNPT,Port Klang,3,False,False
+CONT-1763,20,23068,JNPT,Port Klang,3,False,False
+CONT-1764,40,24496,JNPT,Colombo,1,False,False
+CONT-1765,40,23932,JNPT,Port Klang,3,False,False
+CONT-1766,40,15554,JNPT,Port Klang,3,False,False
+CONT-1767,40,9175,JNPT,Singapore,2,False,False
+CONT-1768,20,21348,JNPT,Colombo,1,False,False
+CONT-1769,40,10768,JNPT,Colombo,1,False,False
+CONT-1770,20,17536,JNPT,Rotterdam,4,True,False
+CONT-1771,20,19125,JNPT,Colombo,1,True,False
+CONT-1772,40,27947,JNPT,Port Klang,3,False,False
+CONT-1773,40,19172,JNPT,Rotterdam,4,False,False
+CONT-1774,40,11578,JNPT,Rotterdam,4,False,False
+CONT-1775,20,23763,JNPT,Port Klang,3,False,False
+CONT-1776,40,15806,JNPT,Singapore,2,False,False
+CONT-1777,20,13189,JNPT,Port Klang,3,False,True
+CONT-1778,20,13806,JNPT,Port Klang,3,False,False
+CONT-1779,20,13667,JNPT,Singapore,2,False,False
+CONT-1780,20,16754,JNPT,Rotterdam,4,False,False
+CONT-1781,20,24999,JNPT,Port Klang,3,False,False
+CONT-1782,40,16504,JNPT,Rotterdam,4,False,False
+CONT-1783,40,29495,JNPT,Colombo,1,False,True
+CONT-1784,40,22428,JNPT,Port Klang,3,False,False
+CONT-1785,40,16488,JNPT,Port Klang,3,False,False
+CONT-1786,20,28537,JNPT,Colombo,1,False,False
+CONT-1787,20,21745,JNPT,Colombo,1,False,False
+CONT-1788,40,21630,JNPT,Colombo,1,False,False
+CONT-1789,20,16805,JNPT,Port Klang,3,False,False
+CONT-1790,40,17635,JNPT,Colombo,1,False,False
+CONT-1791,20,24373,JNPT,Colombo,1,False,False
+CONT-1792,20,29315,JNPT,Port Klang,3,False,False
+CONT-1793,40,12917,JNPT,Rotterdam,4,False,False
+CONT-1794,40,26527,JNPT,Rotterdam,4,False,False
+CONT-1795,20,20477,JNPT,Rotterdam,4,False,False
+CONT-1796,20,12996,JNPT,Port Klang,3,False,False
+CONT-1797,20,15315,JNPT,Colombo,1,False,False
+CONT-1798,20,7611,JNPT,Port Klang,3,False,False
+CONT-1799,40,22711,JNPT,Rotterdam,4,False,False
+CONT-1800,20,22616,JNPT,Singapore,2,False,False
+CONT-1801,40,17400,JNPT,Port Klang,3,False,False
+CONT-1802,20,9862,JNPT,Rotterdam,4,False,False
+CONT-1803,20,8958,JNPT,Rotterdam,4,False,False
+CONT-1804,20,8309,JNPT,Singapore,2,False,True
+CONT-1805,20,7392,JNPT,Singapore,2,False,False
+CONT-1806,20,23249,JNPT,Singapore,2,False,False
+CONT-1807,40,27381,JNPT,Colombo,1,True,False
+CONT-1808,40,21398,JNPT,Rotterdam,4,False,False
+CONT-1809,20,11011,JNPT,Colombo,1,False,False
+CONT-1810,20,26279,JNPT,Rotterdam,4,False,False
+CONT-1811,40,17152,JNPT,Colombo,1,False,False
+CONT-1812,40,25209,JNPT,Rotterdam,4,False,False
+CONT-1813,20,9692,JNPT,Colombo,1,False,False
+CONT-1814,40,18301,JNPT,Colombo,1,False,False
+CONT-1815,20,19382,JNPT,Singapore,2,False,False
+CONT-1816,40,11477,JNPT,Singapore,2,False,False
+CONT-1817,40,13532,JNPT,Colombo,1,False,False
+CONT-1818,40,8218,JNPT,Rotterdam,4,False,False
+CONT-1819,40,21975,JNPT,Rotterdam,4,False,False
+CONT-1820,20,28144,JNPT,Colombo,1,False,False
+CONT-1821,20,9483,JNPT,Port Klang,3,False,False
+CONT-1822,40,15288,JNPT,Colombo,1,False,False
+CONT-1823,20,29101,JNPT,Colombo,1,False,True
+CONT-1824,20,28104,JNPT,Port Klang,3,False,False
+CONT-1825,40,9167,JNPT,Colombo,1,False,False
+CONT-1826,40,14411,JNPT,Port Klang,3,False,False
+CONT-1827,40,17260,JNPT,Singapore,2,False,False
+CONT-1828,20,28700,JNPT,Singapore,2,False,False
+CONT-1829,40,13836,JNPT,Colombo,1,False,False
+CONT-1830,40,15691,JNPT,Port Klang,3,False,False
+CONT-1831,40,15598,JNPT,Port Klang,3,False,False
+CONT-1832,40,25806,JNPT,Rotterdam,4,False,False
+CONT-1833,40,17413,JNPT,Rotterdam,4,False,False
+CONT-1834,20,20228,JNPT,Port Klang,3,False,False
+CONT-1835,20,20851,JNPT,Rotterdam,4,False,True
+CONT-1836,20,12048,JNPT,Rotterdam,4,False,False
+CONT-1837,40,21475,JNPT,Rotterdam,4,False,False
+CONT-1838,20,20909,JNPT,Singapore,2,False,False
+CONT-1839,20,12251,JNPT,Singapore,2,False,False
+CONT-1840,40,28013,JNPT,Port Klang,3,False,True
+CONT-1841,40,20425,JNPT,Colombo,1,False,False
+CONT-1842,40,29460,JNPT,Colombo,1,False,False
+CONT-1843,20,22553,JNPT,Rotterdam,4,False,False
+CONT-1844,20,18546,JNPT,Singapore,2,False,True
+CONT-1845,20,22254,JNPT,Colombo,1,False,False
+CONT-1846,20,5794,JNPT,Singapore,2,True,False
+CONT-1847,40,20381,JNPT,Rotterdam,4,False,False
+CONT-1848,40,10507,JNPT,Colombo,1,True,False
+CONT-1849,20,9975,JNPT,Colombo,1,False,False
+CONT-1850,20,15607,JNPT,Rotterdam,4,False,False
+CONT-1851,20,26497,JNPT,Rotterdam,4,False,False
+CONT-1852,40,26382,JNPT,Port Klang,3,False,False
+CONT-1853,20,17530,JNPT,Colombo,1,False,False
+CONT-1854,40,11548,JNPT,Rotterdam,4,False,True
+CONT-1855,40,22650,JNPT,Port Klang,3,False,False
+CONT-1856,20,25641,JNPT,Colombo,1,False,False
+CONT-1857,40,27444,JNPT,Singapore,2,False,False
+CONT-1858,20,28692,JNPT,Singapore,2,False,False
+CONT-1859,20,16071,JNPT,Singapore,2,False,False
+CONT-1860,20,5182,JNPT,Port Klang,3,False,False
+CONT-1861,20,15256,JNPT,Singapore,2,False,False
+CONT-1862,40,10668,JNPT,Colombo,1,False,False
+CONT-1863,40,13311,JNPT,Colombo,1,False,False
+CONT-1864,20,18899,JNPT,Rotterdam,4,False,False
+CONT-1865,20,22926,JNPT,Rotterdam,4,True,False
+CONT-1866,40,16883,JNPT,Port Klang,3,False,False
+CONT-1867,20,27446,JNPT,Singapore,2,False,False
+CONT-1868,20,15819,JNPT,Singapore,2,False,False
+CONT-1869,20,18641,JNPT,Singapore,2,False,False
+CONT-1870,20,27985,JNPT,Singapore,2,False,False
+CONT-1871,20,7002,JNPT,Rotterdam,4,True,False
+CONT-1872,40,19303,JNPT,Colombo,1,False,False
+CONT-1873,40,27151,JNPT,Port Klang,3,False,False
+CONT-1874,20,22728,JNPT,Singapore,2,False,False
+CONT-1875,20,10843,JNPT,Port Klang,3,False,False
+CONT-1876,40,20548,JNPT,Port Klang,3,False,False
+CONT-1877,40,23512,JNPT,Singapore,2,True,False
+CONT-1878,20,25149,JNPT,Singapore,2,False,False
+CONT-1879,20,6710,JNPT,Singapore,2,False,False
+CONT-1880,20,29903,JNPT,Colombo,1,False,False
+CONT-1881,20,20547,JNPT,Port Klang,3,False,False
+CONT-1882,20,24837,JNPT,Singapore,2,False,False
+CONT-1883,40,22327,JNPT,Rotterdam,4,False,False
+CONT-1884,20,19267,JNPT,Port Klang,3,True,False
+CONT-1885,20,26955,JNPT,Port Klang,3,False,False
+CONT-1886,40,14258,JNPT,Rotterdam,4,False,False
+CONT-1887,20,19486,JNPT,Port Klang,3,True,False
+CONT-1888,20,17087,JNPT,Port Klang,3,False,True
+CONT-1889,20,20687,JNPT,Rotterdam,4,False,False
+CONT-1890,20,6875,JNPT,Colombo,1,False,False
+CONT-1891,20,20513,JNPT,Colombo,1,False,False
+CONT-1892,40,13796,JNPT,Singapore,2,False,False
+CONT-1893,20,25888,JNPT,Colombo,1,False,False
+CONT-1894,40,14362,JNPT,Colombo,1,False,False
+CONT-1895,20,28242,JNPT,Singapore,2,False,False
+CONT-1896,20,26879,JNPT,Colombo,1,False,False
+CONT-1897,20,13737,JNPT,Colombo,1,False,False
+CONT-1898,20,21563,JNPT,Rotterdam,4,False,False
+CONT-1899,40,18196,JNPT,Port Klang,3,False,False
+CONT-1900,40,10821,JNPT,Rotterdam,4,False,False
+CONT-1901,40,14083,JNPT,Port Klang,3,False,False
+CONT-1902,20,17272,JNPT,Rotterdam,4,False,False
+CONT-1903,20,27311,JNPT,Singapore,2,False,False
+CONT-1904,20,14141,JNPT,Singapore,2,False,False
+CONT-1905,20,11528,JNPT,Singapore,2,False,False
+CONT-1906,20,16637,JNPT,Port Klang,3,False,False
+CONT-1907,40,13586,JNPT,Colombo,1,False,False
+CONT-1908,40,22216,JNPT,Port Klang,3,False,False
+CONT-1909,20,29350,JNPT,Port Klang,3,False,False
+CONT-1910,20,13547,JNPT,Colombo,1,False,False
+CONT-1911,20,20310,JNPT,Port Klang,3,False,False
+CONT-1912,40,18563,JNPT,Colombo,1,False,True
+CONT-1913,20,15967,JNPT,Port Klang,3,False,False
+CONT-1914,20,22916,JNPT,Singapore,2,False,False
+CONT-1915,40,22253,JNPT,Rotterdam,4,False,False
+CONT-1916,20,16071,JNPT,Rotterdam,4,False,False
+CONT-1917,40,24612,JNPT,Colombo,1,False,False
+CONT-1918,40,27433,JNPT,Colombo,1,False,False
+CONT-1919,40,25173,JNPT,Singapore,2,False,False
+CONT-1920,40,10962,JNPT,Port Klang,3,False,False
+CONT-1921,20,5027,JNPT,Singapore,2,False,False
+CONT-1922,20,12739,JNPT,Singapore,2,False,False
+CONT-1923,40,20263,JNPT,Colombo,1,False,False
+CONT-1924,20,17912,JNPT,Singapore,2,False,False
+CONT-1925,40,11139,JNPT,Rotterdam,4,False,False
+CONT-1926,20,15718,JNPT,Port Klang,3,False,False
+CONT-1927,20,26950,JNPT,Colombo,1,False,False
+CONT-1928,20,16871,JNPT,Port Klang,3,False,False
+CONT-1929,40,29154,JNPT,Singapore,2,False,False
+CONT-1930,20,8042,JNPT,Port Klang,3,False,False
+CONT-1931,20,17675,JNPT,Rotterdam,4,False,False
+CONT-1932,20,18048,JNPT,Colombo,1,False,False
+CONT-1933,40,29491,JNPT,Rotterdam,4,False,False
+CONT-1934,20,27488,JNPT,Rotterdam,4,False,False
+CONT-1935,20,6786,JNPT,Port Klang,3,False,False
+CONT-1936,40,22754,JNPT,Port Klang,3,False,False
+CONT-1937,40,11659,JNPT,Singapore,2,False,False
+CONT-1938,40,12927,JNPT,Colombo,1,False,False
+CONT-1939,20,21872,JNPT,Rotterdam,4,True,False
+CONT-1940,20,21043,JNPT,Rotterdam,4,True,False
+CONT-1941,20,18949,JNPT,Port Klang,3,False,True
+CONT-1942,20,14608,JNPT,Port Klang,3,True,False
+CONT-1943,40,27522,JNPT,Colombo,1,False,False
+CONT-1944,20,10742,JNPT,Colombo,1,False,False
+CONT-1945,20,14001,JNPT,Port Klang,3,False,False
+CONT-1946,40,25155,JNPT,Rotterdam,4,True,False
+CONT-1947,20,28717,JNPT,Colombo,1,False,False
+CONT-1948,20,25864,JNPT,Port Klang,3,False,False
+CONT-1949,40,29394,JNPT,Colombo,1,False,False
+CONT-1950,40,17935,JNPT,Singapore,2,False,False
+CONT-1951,40,22317,JNPT,Port Klang,3,False,False
+CONT-1952,40,13939,JNPT,Port Klang,3,True,False
+CONT-1953,40,29535,JNPT,Singapore,2,False,False
+CONT-1954,40,18425,JNPT,Colombo,1,False,False
+CONT-1955,20,25033,JNPT,Port Klang,3,False,False
+CONT-1956,20,17748,JNPT,Rotterdam,4,False,False
+CONT-1957,40,12973,JNPT,Rotterdam,4,False,False
+CONT-1958,40,16378,JNPT,Rotterdam,4,False,False
+CONT-1959,20,20942,JNPT,Port Klang,3,False,False
+CONT-1960,20,14562,JNPT,Port Klang,3,False,True
+CONT-1961,40,13463,JNPT,Port Klang,3,False,False
+CONT-1962,40,17302,JNPT,Rotterdam,4,False,False
+CONT-1963,20,9046,JNPT,Colombo,1,False,False
+CONT-1964,40,13853,JNPT,Singapore,2,False,False
+CONT-1965,20,24636,JNPT,Port Klang,3,False,False
+CONT-1966,40,28746,JNPT,Port Klang,3,False,False
+CONT-1967,40,17380,JNPT,Rotterdam,4,False,False
+CONT-1968,20,22454,JNPT,Port Klang,3,False,False
+CONT-1969,20,24010,JNPT,Rotterdam,4,False,False
+CONT-1970,40,12540,JNPT,Colombo,1,False,False
+CONT-1971,20,23655,JNPT,Rotterdam,4,False,True
+CONT-1972,40,29434,JNPT,Rotterdam,4,False,False
+CONT-1973,20,12841,JNPT,Singapore,2,False,False
+CONT-1974,20,14600,JNPT,Colombo,1,False,False
+CONT-1975,20,24767,JNPT,Rotterdam,4,False,False
+CONT-1976,20,8642,JNPT,Port Klang,3,False,False
+CONT-1977,20,29530,JNPT,Colombo,1,False,False
+CONT-1978,40,10305,JNPT,Rotterdam,4,False,False
+CONT-1979,40,27889,JNPT,Colombo,1,False,False
+CONT-1980,20,18054,JNPT,Colombo,1,False,False
+CONT-1981,40,22419,JNPT,Rotterdam,4,False,False
+CONT-1982,40,26999,JNPT,Colombo,1,False,False
+CONT-1983,20,12964,JNPT,Rotterdam,4,False,False
+CONT-1984,40,23015,JNPT,Rotterdam,4,False,False
+CONT-1985,40,18835,JNPT,Rotterdam,4,False,False
+CONT-1986,40,12850,JNPT,Port Klang,3,False,False
+CONT-1987,20,14542,JNPT,Port Klang,3,False,False
+CONT-1988,40,17662,JNPT,Singapore,2,False,False
+CONT-1989,20,25865,JNPT,Singapore,2,False,False
+CONT-1990,20,5395,JNPT,Port Klang,3,False,False
+CONT-1991,40,21298,JNPT,Rotterdam,4,False,False
+CONT-1992,40,24419,JNPT,Port Klang,3,False,False
+CONT-1993,40,25210,JNPT,Rotterdam,4,False,False
+CONT-1994,40,10121,JNPT,Port Klang,3,False,False
+CONT-1995,20,28880,JNPT,Colombo,1,False,False
+CONT-1996,40,8399,JNPT,Singapore,2,False,True
+CONT-1997,40,18797,JNPT,Colombo,1,False,False
+CONT-1998,40,10603,JNPT,Colombo,1,False,False
+CONT-1999,20,29229,JNPT,Singapore,2,False,False
+CONT-2000,20,24960,JNPT,Port Klang,3,False,False

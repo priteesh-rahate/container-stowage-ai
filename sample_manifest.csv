@@ -1,0 +1,4 @@
+container_id,size_ft,weight_kg,loading_port,discharge_port
+CONT-001,20,12000,JNPT,Singapore
+CONT-002,20,28000,JNPT,Colombo
+CONT-003,40,15000,JNPT,Singapore
