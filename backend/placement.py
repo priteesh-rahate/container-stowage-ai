@@ -2,6 +2,7 @@
 import json
 
 from backend.ai_service import propose_container_placements
+from backend.ai_batching import get_ai_batch_proposals
 from backend.models import CargoManifest
 from backend.slots import VesselSlotPlan
 
@@ -98,136 +99,13 @@ def create_stowage_plan(
     ai_proposals = {}
 
     if use_ai and containers:
-        batch = containers[:5]
+        ai_proposals = get_ai_batch_proposals(
+            containers,
+            available_slots,
+            slots_by_position,
+            max_batches=4,
+        )
 
-
-        candidate_slots = [
-            slot
-            for slot in available_slots
-            if any(
-                container.size_ft in slot.supported_sizes_ft
-                and container.weight_kg <= slot.max_weight_kg
-                and (not container.refrigerated or slot.reefer_capable)
-                and (not container.hazardous or slot.hazardous_allowed)
-                and all(
-                    (slot.bay + offset, slot.row, slot.tier) in slots_by_position
-                    and container.size_ft
-                    in slots_by_position[
-                        (slot.bay + offset, slot.row, slot.tier)
-                    ].supported_sizes_ft
-                    and container.weight_kg
-                    <= slots_by_position[
-                        (slot.bay + offset, slot.row, slot.tier)
-                    ].max_weight_kg
-                    and (
-                        not container.refrigerated
-                        or slots_by_position[
-                            (slot.bay + offset, slot.row, slot.tier)
-                        ].reefer_capable
-                    )
-                    and (
-                        not container.hazardous
-                        or slots_by_position[
-                            (slot.bay + offset, slot.row, slot.tier)
-                        ].hazardous_allowed
-                    )
-                    for offset in range(2 if container.size_ft == 40 else 1)
-                )
-                for container in batch
-            )
-        ]
-
-        prompt_data = {
-            "task": "Choose a candidate slot for each container.",
-            "containers": [
-                {
-                    "container_ref": index,
-                    "size_ft": container.size_ft,
-                    "weight_kg": container.weight_kg,
-                    "destination_order": container.destination_order,
-                    "refrigerated": container.refrigerated,
-                    "hazardous": container.hazardous,
-                }
-                for index, container in enumerate(batch)
-            ],
-
-            "candidate_slots": [
-                {
-                    "slot_ref": index,
-                    "bay": slot.bay,
-                    "row": slot.row,
-                    "tier": slot.tier,
-                    "supported_sizes_ft": slot.supported_sizes_ft,
-                    "max_weight_kg": slot.max_weight_kg,
-                    "reefer_capable": slot.reefer_capable,
-                    "hazardous_allowed": slot.hazardous_allowed,
-                }
-                for index, slot in enumerate(candidate_slots)
-            ],
-
-
-            "instructions": [
-                "You are a container stowage placement assistant. "
-                "Return JSON only in this exact structure: "
-                '{"placements":[{"container_ref":0,"slot_ref":0}]}. '
-                "Use only integer references present in the input. "
-                "Place only the supplied containers. "
-                "Never invent additional containers or placements. "
-                "Return at most one placement for each supplied container. "
-                "If no suitable slot exists, return an empty placements array. "
-                "Do not claim that vessel safety or stability has been verified."                
-             ],
-            "response_format": {
-                "placements": [
-                    {
-                        "container_ref": 0,
-                        "slot_ref": 0,
-                    }
-                ]
-            },
-        }        
-        
-
-        print(
-            "CONTAINERS SENT TO QWEN:",
-            [item["container_ref"] for item in prompt_data["containers"]],
-        )      
-
-        try:
-            ai_response = propose_container_placements(
-                json.dumps(prompt_data)
-            )
-            print("QWEN PROPOSAL RESPONSE:", ai_response)
-            
-            parsed_response = json.loads(ai_response)
-
-
-            for proposal in parsed_response.get("placements", []):
-                container_ref = proposal.get("container_ref")
-                slot_ref = proposal.get("slot_ref")
-
-                if (
-                    isinstance(container_ref, int)
-                    and not isinstance(container_ref, bool)
-                    and isinstance(slot_ref, int)
-                    and not isinstance(slot_ref, bool)
-                    and 0 <= container_ref < len(batch)
-                    and 0 <= slot_ref < len(candidate_slots)
-                ):
-                    container_id = batch[container_ref].container_id
-                    slot_id = candidate_slots[slot_ref].slot_id
-                    if container_id not in ai_proposals:
-                        ai_proposals[container_id] = slot_id
-
-
-            
-        except (ValueError, TypeError, KeyError):
-            ai_proposals = {}
-        except Exception:
-            # Keep planning available if the local AI is unavailable.
-            ai_proposals = {}
-
-    
     for container in containers:
         chosen_slot = None
         chosen_positions = None
