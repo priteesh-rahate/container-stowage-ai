@@ -86,6 +86,12 @@ def create_stowage_plan(
     }
     assignments = []
     unassigned = []
+
+    ai_proposed_count = 0
+    ai_accepted_count = 0
+    ai_fallback_count = 0
+    ai_preferred_occupied_count = 0
+
     # Prioritize earlier discharge ports, then heavier containers.
     containers = sorted(
         manifest.containers,
@@ -95,139 +101,190 @@ def create_stowage_plan(
         ),
     )
 
+
     ai_proposals = {}
 
+
     if use_ai and containers:
-        batch = containers[:5]
+        batch_size = 5
+        ai_claimed_slots = set()
+
+        for batch_start in range(
+            0, min(len(containers), 100), batch_size
+        ):
+            batch = containers[
+                batch_start:batch_start + batch_size
+            ]
+
+            container_slot_options = {}
+
+            for container_ref, container in enumerate(batch):
+                        compatible_slots = [
+                            slot
+                            for slot in available_slots
+                            if 20 in slot.supported_sizes_ft
+                            and container.weight_kg <= slot.max_weight_kg
+
+                            and (
+                                not container.refrigerated
+                                or slot.reefer_capable
+                            )
+                            and (
+                                not container.hazardous
+                                or slot.hazardous_allowed
+                            )
+                            and all(
+                                (
+                                    slot.bay + offset,
+                                    slot.row,
+                                    slot.tier,
+                                ) in slots_by_position
+
+                                and 20 in slots_by_position
+                                [
+                                    (
+                                        slot.bay + offset,
+                                        slot.row,
+                                        slot.tier,
+                                    )
+                                ].supported_sizes_ft
+                                and container.weight_kg
+                                <= slots_by_position[
+                                    (
+                                        slot.bay + offset,
+                                        slot.row,
+                                        slot.tier,
+                                    )
+                                ].max_weight_kg
+                                and (
+                                    not container.refrigerated
+                                    or slots_by_position[
+                                        (
+                                            slot.bay + offset,
+                                            slot.row,
+                                            slot.tier,
+                                        )
+                                    ].reefer_capable
+                                )
+                                and (
+                                    not container.hazardous
+                                    or slots_by_position[
+                                        (
+                                            slot.bay + offset,
+                                            slot.row,
+                                            slot.tier,
+                                        )
+                                    ].hazardous_allowed
+                                )
+                                for offset in range(
+                                    2 if container.size_ft == 40 else 1
+                                )
+                            )
+                        ]
+
+                        compatible_slots = [
+                            slot for slot in compatible_slots
+                            if slot.slot_id not in ai_claimed_slots
+                        ]
+
+                        # Limit the AI prompt to 10 candidates spread across the vessel.
+                        if len(compatible_slots) > 10:
+                            last_index = len(compatible_slots) - 1
+                            compatible_slots = [
+                                compatible_slots[round(i * last_index / 9)]
+                                for i in range(10)
+                            ]
 
 
-        candidate_slots = [
-            slot
-            for slot in available_slots
-            if any(
-                container.size_ft in slot.supported_sizes_ft
-                and container.weight_kg <= slot.max_weight_kg
-                and (not container.refrigerated or slot.reefer_capable)
-                and (not container.hazardous or slot.hazardous_allowed)
-                and all(
-                    (slot.bay + offset, slot.row, slot.tier) in slots_by_position
-                    and container.size_ft
-                    in slots_by_position[
-                        (slot.bay + offset, slot.row, slot.tier)
-                    ].supported_sizes_ft
-                    and container.weight_kg
-                    <= slots_by_position[
-                        (slot.bay + offset, slot.row, slot.tier)
-                    ].max_weight_kg
-                    and (
-                        not container.refrigerated
-                        or slots_by_position[
-                            (slot.bay + offset, slot.row, slot.tier)
-                        ].reefer_capable
-                    )
-                    and (
-                        not container.hazardous
-                        or slots_by_position[
-                            (slot.bay + offset, slot.row, slot.tier)
-                        ].hazardous_allowed
-                    )
-                    for offset in range(2 if container.size_ft == 40 else 1)
-                )
-                for container in batch
-            )
-        ]
+                        container_slot_options[container_ref] = compatible_slots
 
-        prompt_data = {
-            "task": "Choose a candidate slot for each container.",
-            "containers": [
-                {
-                    "container_ref": index,
-                    "size_ft": container.size_ft,
-                    "weight_kg": container.weight_kg,
-                    "destination_order": container.destination_order,
-                    "refrigerated": container.refrigerated,
-                    "hazardous": container.hazardous,
-                }
-                for index, container in enumerate(batch)
-            ],
-
-            "candidate_slots": [
-                {
-                    "slot_ref": index,
-                    "bay": slot.bay,
-                    "row": slot.row,
-                    "tier": slot.tier,
-                    "supported_sizes_ft": slot.supported_sizes_ft,
-                    "max_weight_kg": slot.max_weight_kg,
-                    "reefer_capable": slot.reefer_capable,
-                    "hazardous_allowed": slot.hazardous_allowed,
-                }
-                for index, slot in enumerate(candidate_slots)
-            ],
-
-
-            "instructions": [
-                "You are a container stowage placement assistant. "
-                "Return JSON only in this exact structure: "
-                '{"placements":[{"container_ref":0,"slot_ref":0}]}. '
-                "Use only integer references present in the input. "
-                "Place only the supplied containers. "
-                "Never invent additional containers or placements. "
-                "Return at most one placement for each supplied container. "
-                "If no suitable slot exists, return an empty placements array. "
-                "Do not claim that vessel safety or stability has been verified."                
-             ],
-            "response_format": {
-                "placements": [
-                    {
-                        "container_ref": 0,
-                        "slot_ref": 0,
+            prompt_data = {
+                        "task": "Choose a compatible slot for each container.",
+                        "containers": [
+                            {
+                                "container_ref": index,
+                                "size_ft": container.size_ft,
+                                "weight_kg": container.weight_kg,
+                                "destination_order": container.destination_order,
+                                "refrigerated": container.refrigerated,
+                                "hazardous": container.hazardous,
+                                "candidate_slots": [
+                                    {
+                                        "slot_ref": slot_index,
+                                        "bay": slot.bay,
+                                        "row": slot.row,
+                                        "tier": slot.tier,
+                                    }
+                                    for slot_index, slot in enumerate(
+                                        container_slot_options[index]
+                                    )
+                                ],
+                            }
+                            for index, container in enumerate(batch)
+                        ],
+                        "instructions": [
+                            "Return JSON only.",
+                            "Return a placements array.",
+                            "Each slot_ref belongs to its own container's candidate_slots.",
+                            "Use only supplied references.",
+                            "Propose at most one slot per container.",
+                            "Do not assign the same physical slot to multiple containers.",
+                            "Choose different candidate slots for different containers whenever possible.",
+                            "Prefer earlier destination_order values.",
+                            "Do not invent slots or claim vessel safety is verified.",
+                        ],
+                        "response_format": {
+                            "placements": [
+                                {"container_ref": 0, "slot_ref": 0}
+                            ]
+                        },
                     }
-                ]
-            },
-        }        
-        
 
-        print(
-            "CONTAINERS SENT TO QWEN:",
-            [item["container_ref"] for item in prompt_data["containers"]],
-        )      
+            print(
+                        "CONTAINERS SENT TO QWEN:",
+                        [
+                            item["container_ref"] + batch_start
+                            for item in prompt_data["containers"]
+                        ],
+                    )
 
-        try:
-            ai_response = propose_container_placements(
-                json.dumps(prompt_data)
-            )
-            print("QWEN PROPOSAL RESPONSE:", ai_response)
-            
-            parsed_response = json.loads(ai_response)
+            try:
+                        ai_response = propose_container_placements(
+                            json.dumps(prompt_data)
+                        )
+                        print("QWEN PROPOSAL RESPONSE:", ai_response)
+                        parsed_response = json.loads(ai_response)
+
+                        for proposal in parsed_response.get("placements", []):
+                            container_ref = proposal.get("container_ref")
+                            slot_ref = proposal.get("slot_ref")
+
+                            if (
+                                isinstance(container_ref, int)
+                                and not isinstance(container_ref, bool)
+                                and isinstance(slot_ref, int)
+                                and not isinstance(slot_ref, bool)
+                                and 0 <= container_ref < len(batch)
+                                and 0 <= slot_ref
+                                < len(container_slot_options.get(container_ref, []))
+                            ):
+                                container_id = batch[container_ref].container_id
+                                slot_id = container_slot_options[
+                                    container_ref
+                                ][slot_ref].slot_id
+
+                                if container_id not in ai_proposals:
+                                    ai_proposed_count += 1
+                                    ai_proposals[container_id] = slot_id
+                                    ai_claimed_slots.add(slot_id)
+
+            except (ValueError, TypeError, KeyError):
+                        continue
+            except Exception:
+                        # Keep planning available if the local AI is unavailable.
+                        continue
 
 
-            for proposal in parsed_response.get("placements", []):
-                container_ref = proposal.get("container_ref")
-                slot_ref = proposal.get("slot_ref")
-
-                if (
-                    isinstance(container_ref, int)
-                    and not isinstance(container_ref, bool)
-                    and isinstance(slot_ref, int)
-                    and not isinstance(slot_ref, bool)
-                    and 0 <= container_ref < len(batch)
-                    and 0 <= slot_ref < len(candidate_slots)
-                ):
-                    container_id = batch[container_ref].container_id
-                    slot_id = candidate_slots[slot_ref].slot_id
-                    if container_id not in ai_proposals:
-                        ai_proposals[container_id] = slot_id
-
-
-            
-        except (ValueError, TypeError, KeyError):
-            ai_proposals = {}
-        except Exception:
-            # Keep planning available if the local AI is unavailable.
-            ai_proposals = {}
-
-    
     for container in containers:
         chosen_slot = None
         chosen_positions = None
@@ -240,7 +297,7 @@ def create_stowage_plan(
                 container.container_id,
                 "->",
                 preferred_slot_id,
-            )        
+            )
 
         ordered_slots = sorted(
             available_slots,
@@ -263,9 +320,12 @@ def create_stowage_plan(
         for slot in ordered_slots:
 
             if (slot.bay, slot.row, slot.tier) in occupied_positions:
+                if slot.slot_id == preferred_slot_id:
+                    ai_preferred_occupied_count += 1
                 continue
 
-            if container.size_ft not in slot.supported_sizes_ft:
+            if 20 not in slot.supported_sizes_ft:
+
                 continue
 
             if container.weight_kg > slot.max_weight_kg:
@@ -302,9 +362,9 @@ def create_stowage_plan(
             if any(required_slot is None for required_slot in required_slots):
                 if slot.slot_id == preferred_slot_id:
                     print("AI SLOT REJECTED: missing footprint position")
-                continue            
+                continue
             if any(
-                container.size_ft not in required_slot.supported_sizes_ft
+                20 not in required_slot.supported_sizes_ft
                 for required_slot in required_slots
             ):
                 if slot.slot_id == preferred_slot_id:
@@ -333,6 +393,13 @@ def create_stowage_plan(
 
             chosen_slot = slot
             chosen_positions = required_positions
+
+            if preferred_slot_id:
+                if slot.slot_id == preferred_slot_id:
+                    ai_accepted_count += 1
+                else:
+                    ai_fallback_count += 1
+
             break
 
         if chosen_slot is None:
@@ -364,6 +431,10 @@ def create_stowage_plan(
         "vessel_id": vessel.vessel_id,
         "assigned_count": len(assignments),
         "unassigned_count": len(unassigned),
+        "ai_proposed_count": ai_proposed_count,
+        "ai_accepted_count": ai_accepted_count,
+        "ai_fallback_count": ai_fallback_count,
+        "ai_preferred_occupied_count": ai_preferred_occupied_count,
         "assignments": assignments,
         "unassigned": unassigned,
         "estimated_rehandles": rehandling["estimated_rehandles"],

@@ -7,6 +7,7 @@ from fastapi import FastAPI, HTTPException, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
+from backend.voyage_simulation import simulate_voyage
 from backend.vessel_layout import create_vessel_layout
 from backend.ai_service import ask_local_ai
 from backend.models import CargoManifest
@@ -31,6 +32,11 @@ app.add_middleware(
 
 class PlanningRequest(BaseModel):
     manifest: CargoManifest
+    vessel: VesselSlotPlan | None = None
+
+class VoyageSimulationRequest(BaseModel):
+    manifest: CargoManifest
+    port_sequence: list[str] = Field(min_length=2)
     vessel: VesselSlotPlan | None = None
 
 @app.get("/")
@@ -150,4 +156,20 @@ async def upload_manifest(file: UploadFile = File(...)):
         )
     finally:
         await file.close()
+
+@app.post("/api/voyage/simulate")
+def simulate_voyage_endpoint(request: VoyageSimulationRequest):
+    vessel = request.vessel or create_vessel_layout()
+
+    return simulate_voyage(
+        manifest=request.manifest,
+        vessel=vessel,
+        port_sequence=request.port_sequence,
+    )
+
+
+@app.get("/api/vessel/layout")
+def get_vessel_layout():
+    vessel = create_vessel_layout()
+    return vessel.model_dump()
 

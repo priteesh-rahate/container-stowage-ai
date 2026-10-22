@@ -3,6 +3,9 @@ from typing import Literal
 
 from pydantic import BaseModel, Field, model_validator
 
+# Each slot represents one 20-foot base position.
+# A 40-foot container must reserve two adjacent positions
+# at the same row and tier.
 
 class VesselSlot(BaseModel):
     slot_id: str

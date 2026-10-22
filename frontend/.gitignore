@@ -22,3 +22,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Generated placement outputs
+ai_placements*.json
+python_placements.json
+
+# Python test and coverage output
+.coverage
+htmlcov/

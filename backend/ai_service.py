@@ -30,22 +30,33 @@ def ask_local_ai(prompt: str) -> str:
 
     return response.message.content
 
+
 def propose_container_placements(prompt: str) -> str:
     """Ask the local AI to propose container placement decisions."""
 
     response = ollama.chat(
         model=MODEL_NAME,
         format="json",
+        options={
+            "temperature": 0,
+            "num_predict": 500,
+        },
         messages=[
             {
                 "role": "system",
                 "content": (
-                    "You are an AI assistant for container vessel "
-                    "stowage planning. Propose placements only using "
-                    "the candidate slots provided by the user. "
-                    "Return valid JSON only. Do not invent slot IDs. "
-                    "Do not claim physical vessel safety or stability "
-                    "has been verified."
+                    "You select container slots from a supplied JSON input. "
+                    "Return one JSON object with a placements array. "
+                    "Each item must contain integer fields container_ref "
+                    "and slot_ref. Copy container_ref only from the "
+                    "input containers array. Copy slot_ref only from "
+                    "that container's candidate_slots array. "
+                    "The input contains exactly five containers, whose "
+                    "container_ref values are 0, 1, 2, 3, and 4. "
+                    "Never use any other container_ref. "
+                    "Never use a slot_ref that is not listed for that "
+                    "container. Do not create extra placements. "
+                    "Do not include explanations or markdown."
                 ),
             },
             {

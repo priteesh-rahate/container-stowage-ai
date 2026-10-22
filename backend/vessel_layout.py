@@ -20,8 +20,8 @@ def create_vessel_layout(vessel_id: str = "VESSEL-001") -> VesselSlotPlan:
             for tier in hold_tiers + deck_tiers:
                 location = "hold" if tier < 80 else "deck"
 
-                # Keep 40-foot bays separate from 20-foot bays.
-                supported_sizes = [20, 40]
+
+                supported_sizes = [20]
                 slot_id = (
                     f"{bay:02d}"
                     f"{row:02d}"

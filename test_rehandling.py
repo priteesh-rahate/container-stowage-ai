@@ -47,6 +47,18 @@ vessel = VesselSlotPlan(
             supported_sizes_ft=[20],
             stack_id="STACK-A",
         ),
+
+        VesselSlot(
+            slot_id="010204",
+            bay=1,
+            row=2,
+            tier=4,
+            location="hold",
+            max_weight_kg=30000,
+            supported_sizes_ft=[20],
+            stack_id="STACK-B",
+        ),
+
     ],
 )
 
@@ -69,3 +81,27 @@ print(result)
 assert result["estimated_rehandles"] == 1
 assert len(result["rehandle_details"]) == 1
 print("Rehandling test: PASS")
+
+
+# Containers in separate stacks should not block each other.
+separate_stack_assignments = [
+    {
+        "container_id": "PORT2",
+        "slot_id": "010102",
+    },
+    {
+        "container_id": "PORT3",
+        "slot_id": "010204",
+    },
+
+]
+
+result_separate = estimate_rehandles(
+    separate_stack_assignments,
+    manifest,
+    vessel,
+)
+
+assert result_separate["estimated_rehandles"] == 0
+assert len(result_separate["rehandle_details"]) == 0
+print("Separate-stack rehandling test: PASS")

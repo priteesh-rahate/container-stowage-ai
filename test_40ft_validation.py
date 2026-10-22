@@ -66,7 +66,7 @@ incompatible_vessel = VesselSlotPlan(
             tier=2,
             location="hold",
             max_weight_kg=30000,
-            supported_sizes_ft=[20],
+            supported_sizes_ft=[],
         ),
     ],
 )
